@@ -1,3 +1,4 @@
+
 # Explainable Machine Learning for Algorithmic Trading
 ### Effects on Human Decision-Making
 
@@ -25,6 +26,7 @@ recommendation help them make better decisions?**
 
 ## Repository Structure
 
+```
 ├── model.py            # ML pipeline — data loading, feature engineering,
 │                       # model training, SHAP explainability, artifact export
 ├── app.py              # Streamlit web app — experiment interface for participants
@@ -37,6 +39,7 @@ recommendation help them make better decisions?**
 ├── shap_global.png     # Global feature importance bar chart (SHAP)
 ├── shap_local.png      # Local SHAP explanation for a single prediction
 └── responses.csv       # Generated at runtime — participant decision logs
+```
 
 ---
 
@@ -171,4 +174,3 @@ involved at any stage of this research.
 
 This repository is for academic purposes only. All code is original work
 by the author unless otherwise cited. Not intended for commercial use or
-live trading deployment.
