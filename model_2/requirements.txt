@@ -1,0 +1,11 @@
+pandas
+numpy
+pyarrow
+scikit-learn
+xgboost
+tensorflow
+shap
+streamlit
+plotly
+gspread
+google-auth

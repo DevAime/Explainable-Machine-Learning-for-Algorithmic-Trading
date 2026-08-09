@@ -1,0 +1,25 @@
+# Credentials -- never commit these
+experiment/credentials/gsheets_creds.json
+experiment/.streamlit/secrets.toml
+
+# Data (large, and/or may be regenerated)
+data/*.parquet
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Model artifacts (large binaries -- regenerate via train_xgboost.py / train_lstm.py)
+models/*.h5
+models/*.json
+!models/feature_list.json
+models/*.pkl
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store

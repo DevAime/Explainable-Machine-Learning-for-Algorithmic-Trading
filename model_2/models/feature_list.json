@@ -1,0 +1,57 @@
+{
+  "xgboost_features": [
+    "trade_count",
+    "session_progress",
+    "session_sin",
+    "session_cos",
+    "vwap_deviation",
+    "overnight_gap",
+    "log_return",
+    "avg_trade_size",
+    "rsi_14",
+    "atr_14",
+    "MACD_12_26_9",
+    "MACDh_12_26_9",
+    "MACDs_12_26_9",
+    "BBL_20_2.0",
+    "BBM_20_2.0",
+    "BBU_20_2.0",
+    "BBB_20_2.0",
+    "BBP_20_2.0",
+    "obv",
+    "garch_vol",
+    "vix_close_lagged",
+    "ADX_14",
+    "DMP_14",
+    "DMN_14",
+    "dist_from_20d_high",
+    "dist_from_20d_low",
+    "realized_vol_intraday"
+  ],
+  "lstm_features": [
+    "log_return",
+    "vwap_deviation",
+    "rsi_14",
+    "atr_14",
+    "MACDh_12_26_9",
+    "BBP_20_2.0",
+    "ADX_14",
+    "garch_vol",
+    "session_sin",
+    "session_cos"
+  ],
+  "label_config": {
+    "n_bars": 12,
+    "flat_std_mult": 0.5,
+    "thresholds": {
+      "lower": -0.0014719919315333491,
+      "upper": 0.0014719919315333491
+    },
+    "label_map": {
+      "0": "down",
+      "1": "flat",
+      "2": "up"
+    }
+  },
+  "lstm_lookback_bars": 24
+}

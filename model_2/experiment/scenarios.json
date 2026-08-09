@@ -1,0 +1,6028 @@
+{
+  "generated_from_cadence": "monthly",
+  "n_scenarios": 20,
+  "set_a": [
+    {
+      "scenario_id": "2022-09-06 11:45:00-04:00",
+      "timestamp": "2022-09-06 11:45:00-04:00",
+      "fold_id": 0,
+      "signal": "up",
+      "confidence": 0.818,
+      "confidence_level": "high",
+      "top_features": [
+        {
+          "feature": "Market-wide volatility (VIX, prior day)",
+          "raw_column": "vix_close_lagged",
+          "shap_value": 0.46897295117378235,
+          "direction": "supports"
+        },
+        {
+          "feature": "Trend strength (ADX)",
+          "raw_column": "ADX_14",
+          "shap_value": 0.4307219386100769,
+          "direction": "supports"
+        },
+        {
+          "feature": "On-balance volume (buying/selling pressure)",
+          "raw_column": "obv",
+          "shap_value": 0.2075161337852478,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger lower band",
+          "raw_column": "BBL_20_2.0",
+          "shap_value": 0.16382940113544464,
+          "direction": "supports"
+        },
+        {
+          "feature": "Downward trend pressure",
+          "raw_column": "DMN_14",
+          "shap_value": 0.11764822900295258,
+          "direction": "supports"
+        },
+        {
+          "feature": "Upward trend pressure",
+          "raw_column": "DMP_14",
+          "shap_value": -0.10496009886264801,
+          "direction": "against"
+        },
+        {
+          "feature": "MACD line",
+          "raw_column": "MACD_12_26_9",
+          "shap_value": -0.0913311019539833,
+          "direction": "against"
+        },
+        {
+          "feature": "Bollinger band width",
+          "raw_column": "BBB_20_2.0",
+          "shap_value": -0.08204522728919983,
+          "direction": "against"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2022-09-02 15:55:00-04:00",
+          "open": 392.045,
+          "high": 392.5368,
+          "low": 391.41,
+          "close": 392.27,
+          "volume": 5349203.0
+        },
+        {
+          "timestamp": "2022-09-02 16:00:00-04:00",
+          "open": 392.27,
+          "high": 392.7,
+          "low": 392.14,
+          "close": 392.6,
+          "volume": 4467605.0
+        },
+        {
+          "timestamp": "2022-09-06 09:30:00-04:00",
+          "open": 393.1,
+          "high": 394.12,
+          "low": 393.1,
+          "close": 393.14,
+          "volume": 1768458.0
+        },
+        {
+          "timestamp": "2022-09-06 09:35:00-04:00",
+          "open": 393.164,
+          "high": 393.65,
+          "low": 392.41,
+          "close": 392.44,
+          "volume": 1169362.0
+        },
+        {
+          "timestamp": "2022-09-06 09:40:00-04:00",
+          "open": 392.425,
+          "high": 392.71,
+          "low": 391.99,
+          "close": 392.29,
+          "volume": 1252765.0
+        },
+        {
+          "timestamp": "2022-09-06 09:45:00-04:00",
+          "open": 392.31,
+          "high": 392.67,
+          "low": 391.44,
+          "close": 391.54,
+          "volume": 1095609.0
+        },
+        {
+          "timestamp": "2022-09-06 09:50:00-04:00",
+          "open": 391.52,
+          "high": 391.71,
+          "low": 390.66,
+          "close": 390.7,
+          "volume": 1103759.0
+        },
+        {
+          "timestamp": "2022-09-06 09:55:00-04:00",
+          "open": 390.7,
+          "high": 391.77,
+          "low": 390.52,
+          "close": 391.64,
+          "volume": 1123674.0
+        },
+        {
+          "timestamp": "2022-09-06 10:00:00-04:00",
+          "open": 391.65,
+          "high": 391.65,
+          "low": 388.97,
+          "close": 389.59,
+          "volume": 2420222.0
+        },
+        {
+          "timestamp": "2022-09-06 10:05:00-04:00",
+          "open": 389.58,
+          "high": 389.79,
+          "low": 389.1,
+          "close": 389.335,
+          "volume": 923102.0
+        },
+        {
+          "timestamp": "2022-09-06 10:10:00-04:00",
+          "open": 389.34,
+          "high": 389.5,
+          "low": 388.42,
+          "close": 389.365,
+          "volume": 1357348.0
+        },
+        {
+          "timestamp": "2022-09-06 10:15:00-04:00",
+          "open": 389.35,
+          "high": 389.54,
+          "low": 388.73,
+          "close": 389.4001,
+          "volume": 967866.0
+        },
+        {
+          "timestamp": "2022-09-06 10:20:00-04:00",
+          "open": 389.414,
+          "high": 389.48,
+          "low": 388.62,
+          "close": 389.0999,
+          "volume": 778541.0
+        },
+        {
+          "timestamp": "2022-09-06 10:25:00-04:00",
+          "open": 389.1143,
+          "high": 390.67,
+          "low": 388.9,
+          "close": 390.4101,
+          "volume": 1150074.0
+        },
+        {
+          "timestamp": "2022-09-06 10:30:00-04:00",
+          "open": 390.4,
+          "high": 390.4334,
+          "low": 389.79,
+          "close": 390.2392,
+          "volume": 861292.0
+        },
+        {
+          "timestamp": "2022-09-06 10:35:00-04:00",
+          "open": 390.24,
+          "high": 391.27,
+          "low": 389.67,
+          "close": 391.19,
+          "volume": 1011438.0
+        },
+        {
+          "timestamp": "2022-09-06 10:40:00-04:00",
+          "open": 391.18,
+          "high": 392.26,
+          "low": 391.16,
+          "close": 391.8701,
+          "volume": 1450207.0
+        },
+        {
+          "timestamp": "2022-09-06 10:45:00-04:00",
+          "open": 391.88,
+          "high": 392.21,
+          "low": 391.44,
+          "close": 391.7209,
+          "volume": 917137.0
+        },
+        {
+          "timestamp": "2022-09-06 10:50:00-04:00",
+          "open": 391.74,
+          "high": 393.19,
+          "low": 391.66,
+          "close": 392.49,
+          "volume": 1448086.0
+        },
+        {
+          "timestamp": "2022-09-06 10:55:00-04:00",
+          "open": 392.52,
+          "high": 393.74,
+          "low": 392.5,
+          "close": 393.11,
+          "volume": 1249641.0
+        },
+        {
+          "timestamp": "2022-09-06 11:00:00-04:00",
+          "open": 393.1,
+          "high": 393.17,
+          "low": 392.53,
+          "close": 392.915,
+          "volume": 998985.0
+        },
+        {
+          "timestamp": "2022-09-06 11:05:00-04:00",
+          "open": 392.9,
+          "high": 394.05,
+          "low": 392.72,
+          "close": 393.49,
+          "volume": 982847.0
+        },
+        {
+          "timestamp": "2022-09-06 11:10:00-04:00",
+          "open": 393.48,
+          "high": 393.63,
+          "low": 392.75,
+          "close": 393.11,
+          "volume": 827762.0
+        },
+        {
+          "timestamp": "2022-09-06 11:15:00-04:00",
+          "open": 393.12,
+          "high": 393.22,
+          "low": 392.43,
+          "close": 392.56,
+          "volume": 686892.0
+        },
+        {
+          "timestamp": "2022-09-06 11:20:00-04:00",
+          "open": 392.54,
+          "high": 393.09,
+          "low": 392.27,
+          "close": 392.805,
+          "volume": 705528.0
+        },
+        {
+          "timestamp": "2022-09-06 11:25:00-04:00",
+          "open": 392.8011,
+          "high": 393.14,
+          "low": 391.85,
+          "close": 392.02,
+          "volume": 700544.0
+        },
+        {
+          "timestamp": "2022-09-06 11:30:00-04:00",
+          "open": 391.99,
+          "high": 393.55,
+          "low": 391.82,
+          "close": 392.91,
+          "volume": 861328.0
+        },
+        {
+          "timestamp": "2022-09-06 11:35:00-04:00",
+          "open": 392.91,
+          "high": 393.23,
+          "low": 392.21,
+          "close": 392.6399,
+          "volume": 585718.0
+        },
+        {
+          "timestamp": "2022-09-06 11:40:00-04:00",
+          "open": 392.57,
+          "high": 393.94,
+          "low": 392.43,
+          "close": 393.22,
+          "volume": 719151.0
+        },
+        {
+          "timestamp": "2022-09-06 11:45:00-04:00",
+          "open": 393.26,
+          "high": 393.62,
+          "low": 392.72,
+          "close": 392.87,
+          "volume": 531045.0
+        }
+      ],
+      "set": "A"
+    },
+    {
+      "scenario_id": "2022-11-07 13:25:00-05:00",
+      "timestamp": "2022-11-07 13:25:00-05:00",
+      "fold_id": 2,
+      "signal": "up",
+      "confidence": 0.4333,
+      "confidence_level": "low",
+      "top_features": [
+        {
+          "feature": "Trend strength (ADX)",
+          "raw_column": "ADX_14",
+          "shap_value": 0.1720372438430786,
+          "direction": "supports"
+        },
+        {
+          "feature": "MACD signal line",
+          "raw_column": "MACDs_12_26_9",
+          "shap_value": 0.12164654582738876,
+          "direction": "supports"
+        },
+        {
+          "feature": "Time of day (cyclical)",
+          "raw_column": "session_cos",
+          "shap_value": -0.07923506945371628,
+          "direction": "against"
+        },
+        {
+          "feature": "Distance from 20-day high",
+          "raw_column": "dist_from_20d_high",
+          "shap_value": 0.06816250830888748,
+          "direction": "supports"
+        },
+        {
+          "feature": "Number of trades",
+          "raw_column": "trade_count",
+          "shap_value": -0.06679181754589081,
+          "direction": "against"
+        },
+        {
+          "feature": "Realized intraday volatility",
+          "raw_column": "realized_vol_intraday",
+          "shap_value": -0.06083282083272934,
+          "direction": "against"
+        },
+        {
+          "feature": "On-balance volume (buying/selling pressure)",
+          "raw_column": "obv",
+          "shap_value": -0.060008127242326736,
+          "direction": "against"
+        },
+        {
+          "feature": "Downward trend pressure",
+          "raw_column": "DMN_14",
+          "shap_value": 0.058549024164676666,
+          "direction": "supports"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2022-11-07 11:00:00-05:00",
+          "open": 377.62,
+          "high": 377.79,
+          "low": 377.02,
+          "close": 377.62,
+          "volume": 615951.0
+        },
+        {
+          "timestamp": "2022-11-07 11:05:00-05:00",
+          "open": 377.63,
+          "high": 377.88,
+          "low": 376.92,
+          "close": 377.41,
+          "volume": 469439.0
+        },
+        {
+          "timestamp": "2022-11-07 11:10:00-05:00",
+          "open": 377.38,
+          "high": 377.46,
+          "low": 376.875,
+          "close": 376.98,
+          "volume": 441418.0
+        },
+        {
+          "timestamp": "2022-11-07 11:15:00-05:00",
+          "open": 377.03,
+          "high": 377.69,
+          "low": 377.02,
+          "close": 377.3328,
+          "volume": 669870.0
+        },
+        {
+          "timestamp": "2022-11-07 11:20:00-05:00",
+          "open": 377.35,
+          "high": 377.81,
+          "low": 377.1499,
+          "close": 377.59,
+          "volume": 377714.0
+        },
+        {
+          "timestamp": "2022-11-07 11:25:00-05:00",
+          "open": 377.58,
+          "high": 378.08,
+          "low": 377.33,
+          "close": 377.79,
+          "volume": 486459.0
+        },
+        {
+          "timestamp": "2022-11-07 11:30:00-05:00",
+          "open": 377.7901,
+          "high": 378.15,
+          "low": 377.715,
+          "close": 377.905,
+          "volume": 483205.0
+        },
+        {
+          "timestamp": "2022-11-07 11:35:00-05:00",
+          "open": 377.93,
+          "high": 377.99,
+          "low": 377.5,
+          "close": 377.54,
+          "volume": 426180.0
+        },
+        {
+          "timestamp": "2022-11-07 11:40:00-05:00",
+          "open": 377.53,
+          "high": 377.57,
+          "low": 376.22,
+          "close": 376.375,
+          "volume": 869428.0
+        },
+        {
+          "timestamp": "2022-11-07 11:45:00-05:00",
+          "open": 376.37,
+          "high": 376.74,
+          "low": 376.22,
+          "close": 376.69,
+          "volume": 527659.0
+        },
+        {
+          "timestamp": "2022-11-07 11:50:00-05:00",
+          "open": 376.69,
+          "high": 376.78,
+          "low": 376.45,
+          "close": 376.64,
+          "volume": 370303.0
+        },
+        {
+          "timestamp": "2022-11-07 11:55:00-05:00",
+          "open": 376.65,
+          "high": 376.8,
+          "low": 376.21,
+          "close": 376.22,
+          "volume": 476895.0
+        },
+        {
+          "timestamp": "2022-11-07 12:00:00-05:00",
+          "open": 376.21,
+          "high": 376.3286,
+          "low": 375.81,
+          "close": 376.2,
+          "volume": 640992.0
+        },
+        {
+          "timestamp": "2022-11-07 12:05:00-05:00",
+          "open": 376.2,
+          "high": 376.85,
+          "low": 375.95,
+          "close": 376.71,
+          "volume": 734305.0
+        },
+        {
+          "timestamp": "2022-11-07 12:10:00-05:00",
+          "open": 376.71,
+          "high": 377.12,
+          "low": 376.62,
+          "close": 376.8179,
+          "volume": 424961.0
+        },
+        {
+          "timestamp": "2022-11-07 12:15:00-05:00",
+          "open": 376.83,
+          "high": 376.98,
+          "low": 376.48,
+          "close": 376.869,
+          "volume": 443750.0
+        },
+        {
+          "timestamp": "2022-11-07 12:20:00-05:00",
+          "open": 376.865,
+          "high": 377.24,
+          "low": 376.68,
+          "close": 377.24,
+          "volume": 409561.0
+        },
+        {
+          "timestamp": "2022-11-07 12:25:00-05:00",
+          "open": 377.23,
+          "high": 377.26,
+          "low": 376.86,
+          "close": 377.16,
+          "volume": 384505.0
+        },
+        {
+          "timestamp": "2022-11-07 12:30:00-05:00",
+          "open": 377.16,
+          "high": 377.37,
+          "low": 377.09,
+          "close": 377.16,
+          "volume": 298275.0
+        },
+        {
+          "timestamp": "2022-11-07 12:35:00-05:00",
+          "open": 377.17,
+          "high": 377.23,
+          "low": 376.79,
+          "close": 377.01,
+          "volume": 399709.0
+        },
+        {
+          "timestamp": "2022-11-07 12:40:00-05:00",
+          "open": 377.01,
+          "high": 377.19,
+          "low": 376.79,
+          "close": 377.065,
+          "volume": 506066.0
+        },
+        {
+          "timestamp": "2022-11-07 12:45:00-05:00",
+          "open": 377.07,
+          "high": 377.305,
+          "low": 376.7,
+          "close": 376.86,
+          "volume": 295338.0
+        },
+        {
+          "timestamp": "2022-11-07 12:50:00-05:00",
+          "open": 376.84,
+          "high": 376.87,
+          "low": 376.6,
+          "close": 376.72,
+          "volume": 270594.0
+        },
+        {
+          "timestamp": "2022-11-07 12:55:00-05:00",
+          "open": 376.7,
+          "high": 377.02,
+          "low": 376.55,
+          "close": 377.0097,
+          "volume": 272791.0
+        },
+        {
+          "timestamp": "2022-11-07 13:00:00-05:00",
+          "open": 377.0,
+          "high": 377.59,
+          "low": 376.96,
+          "close": 377.545,
+          "volume": 641960.0
+        },
+        {
+          "timestamp": "2022-11-07 13:05:00-05:00",
+          "open": 377.55,
+          "high": 377.81,
+          "low": 377.5,
+          "close": 377.76,
+          "volume": 355618.0
+        },
+        {
+          "timestamp": "2022-11-07 13:10:00-05:00",
+          "open": 377.76,
+          "high": 377.9801,
+          "low": 377.55,
+          "close": 377.68,
+          "volume": 460124.0
+        },
+        {
+          "timestamp": "2022-11-07 13:15:00-05:00",
+          "open": 377.67,
+          "high": 377.9,
+          "low": 377.46,
+          "close": 377.68,
+          "volume": 297159.0
+        },
+        {
+          "timestamp": "2022-11-07 13:20:00-05:00",
+          "open": 377.69,
+          "high": 377.74,
+          "low": 377.38,
+          "close": 377.42,
+          "volume": 277545.0
+        },
+        {
+          "timestamp": "2022-11-07 13:25:00-05:00",
+          "open": 377.43,
+          "high": 377.69,
+          "low": 377.26,
+          "close": 377.65,
+          "volume": 249690.0
+        }
+      ],
+      "set": "A"
+    },
+    {
+      "scenario_id": "2023-03-20 09:30:00-04:00",
+      "timestamp": "2023-03-20 09:30:00-04:00",
+      "fold_id": 6,
+      "signal": "up",
+      "confidence": 0.5718,
+      "confidence_level": "high",
+      "top_features": [
+        {
+          "feature": "Modeled volatility (GARCH)",
+          "raw_column": "garch_vol",
+          "shap_value": 0.1615162342786789,
+          "direction": "supports"
+        },
+        {
+          "feature": "Distance from 20-day high",
+          "raw_column": "dist_from_20d_high",
+          "shap_value": -0.09273531287908554,
+          "direction": "against"
+        },
+        {
+          "feature": "Bollinger midline",
+          "raw_column": "BBM_20_2.0",
+          "shap_value": 0.08833063393831253,
+          "direction": "supports"
+        },
+        {
+          "feature": "Number of trades",
+          "raw_column": "trade_count",
+          "shap_value": 0.07162756472826004,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger band width",
+          "raw_column": "BBB_20_2.0",
+          "shap_value": 0.06555105000734329,
+          "direction": "supports"
+        },
+        {
+          "feature": "On-balance volume (buying/selling pressure)",
+          "raw_column": "obv",
+          "shap_value": 0.049480557441711426,
+          "direction": "supports"
+        },
+        {
+          "feature": "Realized intraday volatility",
+          "raw_column": "realized_vol_intraday",
+          "shap_value": 0.042355380952358246,
+          "direction": "supports"
+        },
+        {
+          "feature": "Distance from 20-day low",
+          "raw_column": "dist_from_20d_low",
+          "shap_value": 0.03778505697846413,
+          "direction": "supports"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2023-03-17 13:40:00-04:00",
+          "open": 390.94,
+          "high": 390.94,
+          "low": 390.21,
+          "close": 390.76,
+          "volume": 661380.0
+        },
+        {
+          "timestamp": "2023-03-17 13:45:00-04:00",
+          "open": 390.75,
+          "high": 391.16,
+          "low": 390.53,
+          "close": 390.88,
+          "volume": 987736.0
+        },
+        {
+          "timestamp": "2023-03-17 13:50:00-04:00",
+          "open": 390.88,
+          "high": 391.1,
+          "low": 390.49,
+          "close": 390.6699,
+          "volume": 529671.0
+        },
+        {
+          "timestamp": "2023-03-17 13:55:00-04:00",
+          "open": 390.66,
+          "high": 391.01,
+          "low": 390.4,
+          "close": 391.0088,
+          "volume": 717882.0
+        },
+        {
+          "timestamp": "2023-03-17 14:00:00-04:00",
+          "open": 391.03,
+          "high": 391.46,
+          "low": 390.66,
+          "close": 390.724,
+          "volume": 912837.0
+        },
+        {
+          "timestamp": "2023-03-17 14:05:00-04:00",
+          "open": 390.72,
+          "high": 390.875,
+          "low": 390.04,
+          "close": 390.29,
+          "volume": 1487185.0
+        },
+        {
+          "timestamp": "2023-03-17 14:10:00-04:00",
+          "open": 390.28,
+          "high": 390.35,
+          "low": 389.86,
+          "close": 389.91,
+          "volume": 869931.0
+        },
+        {
+          "timestamp": "2023-03-17 14:15:00-04:00",
+          "open": 389.91,
+          "high": 390.2112,
+          "low": 389.4,
+          "close": 389.8499,
+          "volume": 1088969.0
+        },
+        {
+          "timestamp": "2023-03-17 14:20:00-04:00",
+          "open": 389.84,
+          "high": 389.9991,
+          "low": 389.25,
+          "close": 389.3,
+          "volume": 1520735.0
+        },
+        {
+          "timestamp": "2023-03-17 14:25:00-04:00",
+          "open": 389.31,
+          "high": 389.35,
+          "low": 388.89,
+          "close": 389.07,
+          "volume": 1153924.0
+        },
+        {
+          "timestamp": "2023-03-17 14:30:00-04:00",
+          "open": 389.09,
+          "high": 389.63,
+          "low": 388.97,
+          "close": 389.46,
+          "volume": 995393.0
+        },
+        {
+          "timestamp": "2023-03-17 14:35:00-04:00",
+          "open": 389.47,
+          "high": 389.56,
+          "low": 388.9628,
+          "close": 389.325,
+          "volume": 812415.0
+        },
+        {
+          "timestamp": "2023-03-17 14:40:00-04:00",
+          "open": 389.31,
+          "high": 389.46,
+          "low": 388.98,
+          "close": 389.27,
+          "volume": 790179.0
+        },
+        {
+          "timestamp": "2023-03-17 14:45:00-04:00",
+          "open": 389.27,
+          "high": 389.36,
+          "low": 388.95,
+          "close": 389.22,
+          "volume": 855815.0
+        },
+        {
+          "timestamp": "2023-03-17 14:50:00-04:00",
+          "open": 389.19,
+          "high": 389.84,
+          "low": 388.55,
+          "close": 389.77,
+          "volume": 1473966.0
+        },
+        {
+          "timestamp": "2023-03-17 14:55:00-04:00",
+          "open": 389.77,
+          "high": 390.05,
+          "low": 389.51,
+          "close": 389.65,
+          "volume": 1016149.0
+        },
+        {
+          "timestamp": "2023-03-17 15:00:00-04:00",
+          "open": 389.64,
+          "high": 389.845,
+          "low": 389.2,
+          "close": 389.615,
+          "volume": 919930.0
+        },
+        {
+          "timestamp": "2023-03-17 15:05:00-04:00",
+          "open": 389.615,
+          "high": 389.86,
+          "low": 389.23,
+          "close": 389.64,
+          "volume": 1012091.0
+        },
+        {
+          "timestamp": "2023-03-17 15:10:00-04:00",
+          "open": 389.63,
+          "high": 390.1986,
+          "low": 389.52,
+          "close": 390.025,
+          "volume": 1756355.0
+        },
+        {
+          "timestamp": "2023-03-17 15:15:00-04:00",
+          "open": 390.025,
+          "high": 390.67,
+          "low": 389.65,
+          "close": 390.28,
+          "volume": 1404454.0
+        },
+        {
+          "timestamp": "2023-03-17 15:20:00-04:00",
+          "open": 390.28,
+          "high": 390.66,
+          "low": 390.04,
+          "close": 390.605,
+          "volume": 1278913.0
+        },
+        {
+          "timestamp": "2023-03-17 15:25:00-04:00",
+          "open": 390.6,
+          "high": 390.87,
+          "low": 390.285,
+          "close": 390.754,
+          "volume": 2598222.0
+        },
+        {
+          "timestamp": "2023-03-17 15:30:00-04:00",
+          "open": 390.75,
+          "high": 390.79,
+          "low": 389.604,
+          "close": 390.19,
+          "volume": 1469677.0
+        },
+        {
+          "timestamp": "2023-03-17 15:35:00-04:00",
+          "open": 390.19,
+          "high": 390.22,
+          "low": 389.8,
+          "close": 389.89,
+          "volume": 1434579.0
+        },
+        {
+          "timestamp": "2023-03-17 15:40:00-04:00",
+          "open": 389.88,
+          "high": 390.52,
+          "low": 389.86,
+          "close": 390.4,
+          "volume": 1347168.0
+        },
+        {
+          "timestamp": "2023-03-17 15:45:00-04:00",
+          "open": 390.4,
+          "high": 390.41,
+          "low": 389.46,
+          "close": 389.58,
+          "volume": 2592238.0
+        },
+        {
+          "timestamp": "2023-03-17 15:50:00-04:00",
+          "open": 389.56,
+          "high": 390.42,
+          "low": 389.44,
+          "close": 390.3215,
+          "volume": 2644648.0
+        },
+        {
+          "timestamp": "2023-03-17 15:55:00-04:00",
+          "open": 390.31,
+          "high": 390.58,
+          "low": 389.74,
+          "close": 390.11,
+          "volume": 5500865.0
+        },
+        {
+          "timestamp": "2023-03-17 16:00:00-04:00",
+          "open": 390.12,
+          "high": 390.83,
+          "low": 389.99,
+          "close": 390.56,
+          "volume": 4249184.0
+        },
+        {
+          "timestamp": "2023-03-20 09:30:00-04:00",
+          "open": 390.78,
+          "high": 391.98,
+          "low": 390.54,
+          "close": 390.67,
+          "volume": 3033057.0
+        }
+      ],
+      "set": "A"
+    },
+    {
+      "scenario_id": "2023-10-20 14:40:00-04:00",
+      "timestamp": "2023-10-20 14:40:00-04:00",
+      "fold_id": 13,
+      "signal": "flat",
+      "confidence": 0.3523,
+      "confidence_level": "low",
+      "top_features": [
+        {
+          "feature": "Average True Range (volatility)",
+          "raw_column": "atr_14",
+          "shap_value": -0.09717414528131485,
+          "direction": "against"
+        },
+        {
+          "feature": "Distance from 20-day low",
+          "raw_column": "dist_from_20d_low",
+          "shap_value": -0.07098617404699326,
+          "direction": "against"
+        },
+        {
+          "feature": "Time of day (cyclical)",
+          "raw_column": "session_sin",
+          "shap_value": -0.052864983677864075,
+          "direction": "against"
+        },
+        {
+          "feature": "Market-wide volatility (VIX, prior day)",
+          "raw_column": "vix_close_lagged",
+          "shap_value": -0.0455951914191246,
+          "direction": "against"
+        },
+        {
+          "feature": "MACD momentum",
+          "raw_column": "MACDh_12_26_9",
+          "shap_value": -0.04178677499294281,
+          "direction": "against"
+        },
+        {
+          "feature": "Bollinger lower band",
+          "raw_column": "BBL_20_2.0",
+          "shap_value": 0.04164239391684532,
+          "direction": "supports"
+        },
+        {
+          "feature": "MACD signal line",
+          "raw_column": "MACDs_12_26_9",
+          "shap_value": -0.031775347888469696,
+          "direction": "against"
+        },
+        {
+          "feature": "On-balance volume (buying/selling pressure)",
+          "raw_column": "obv",
+          "shap_value": 0.028720825910568237,
+          "direction": "supports"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2023-10-20 12:15:00-04:00",
+          "open": 422.47,
+          "high": 422.89,
+          "low": 422.295,
+          "close": 422.87,
+          "volume": 661262.0
+        },
+        {
+          "timestamp": "2023-10-20 12:20:00-04:00",
+          "open": 422.87,
+          "high": 423.71,
+          "low": 422.83,
+          "close": 423.59,
+          "volume": 1179160.0
+        },
+        {
+          "timestamp": "2023-10-20 12:25:00-04:00",
+          "open": 423.58,
+          "high": 423.61,
+          "low": 422.91,
+          "close": 422.98,
+          "volume": 772460.0
+        },
+        {
+          "timestamp": "2023-10-20 12:30:00-04:00",
+          "open": 422.99,
+          "high": 423.58,
+          "low": 422.99,
+          "close": 423.515,
+          "volume": 568490.0
+        },
+        {
+          "timestamp": "2023-10-20 12:35:00-04:00",
+          "open": 423.5,
+          "high": 423.92,
+          "low": 423.3808,
+          "close": 423.6501,
+          "volume": 1016361.0
+        },
+        {
+          "timestamp": "2023-10-20 12:40:00-04:00",
+          "open": 423.64,
+          "high": 423.6495,
+          "low": 423.22,
+          "close": 423.3,
+          "volume": 570593.0
+        },
+        {
+          "timestamp": "2023-10-20 12:45:00-04:00",
+          "open": 423.285,
+          "high": 423.99,
+          "low": 423.24,
+          "close": 423.9699,
+          "volume": 610943.0
+        },
+        {
+          "timestamp": "2023-10-20 12:50:00-04:00",
+          "open": 423.96,
+          "high": 423.97,
+          "low": 423.56,
+          "close": 423.67,
+          "volume": 564299.0
+        },
+        {
+          "timestamp": "2023-10-20 12:55:00-04:00",
+          "open": 423.6671,
+          "high": 424.46,
+          "low": 423.631,
+          "close": 424.269,
+          "volume": 1300331.0
+        },
+        {
+          "timestamp": "2023-10-20 13:00:00-04:00",
+          "open": 424.27,
+          "high": 424.375,
+          "low": 423.65,
+          "close": 423.71,
+          "volume": 683026.0
+        },
+        {
+          "timestamp": "2023-10-20 13:05:00-04:00",
+          "open": 423.72,
+          "high": 423.81,
+          "low": 423.08,
+          "close": 423.1488,
+          "volume": 784895.0
+        },
+        {
+          "timestamp": "2023-10-20 13:10:00-04:00",
+          "open": 423.1499,
+          "high": 423.48,
+          "low": 423.13,
+          "close": 423.41,
+          "volume": 764868.0
+        },
+        {
+          "timestamp": "2023-10-20 13:15:00-04:00",
+          "open": 423.39,
+          "high": 424.77,
+          "low": 423.21,
+          "close": 424.57,
+          "volume": 1442409.0
+        },
+        {
+          "timestamp": "2023-10-20 13:20:00-04:00",
+          "open": 424.56,
+          "high": 424.7,
+          "low": 424.09,
+          "close": 424.39,
+          "volume": 932518.0
+        },
+        {
+          "timestamp": "2023-10-20 13:25:00-04:00",
+          "open": 424.39,
+          "high": 424.46,
+          "low": 423.95,
+          "close": 424.1801,
+          "volume": 1145940.0
+        },
+        {
+          "timestamp": "2023-10-20 13:30:00-04:00",
+          "open": 424.19,
+          "high": 424.31,
+          "low": 423.7704,
+          "close": 424.12,
+          "volume": 1423010.0
+        },
+        {
+          "timestamp": "2023-10-20 13:35:00-04:00",
+          "open": 424.12,
+          "high": 424.295,
+          "low": 423.86,
+          "close": 423.885,
+          "volume": 765307.0
+        },
+        {
+          "timestamp": "2023-10-20 13:40:00-04:00",
+          "open": 423.86,
+          "high": 424.64,
+          "low": 423.84,
+          "close": 424.35,
+          "volume": 686760.0
+        },
+        {
+          "timestamp": "2023-10-20 13:45:00-04:00",
+          "open": 424.34,
+          "high": 424.44,
+          "low": 423.68,
+          "close": 423.7395,
+          "volume": 508769.0
+        },
+        {
+          "timestamp": "2023-10-20 13:50:00-04:00",
+          "open": 423.73,
+          "high": 424.05,
+          "low": 423.36,
+          "close": 423.77,
+          "volume": 699741.0
+        },
+        {
+          "timestamp": "2023-10-20 13:55:00-04:00",
+          "open": 423.76,
+          "high": 424.22,
+          "low": 423.6931,
+          "close": 424.22,
+          "volume": 794990.0
+        },
+        {
+          "timestamp": "2023-10-20 14:00:00-04:00",
+          "open": 424.2,
+          "high": 424.2884,
+          "low": 423.8,
+          "close": 423.9,
+          "volume": 729223.0
+        },
+        {
+          "timestamp": "2023-10-20 14:05:00-04:00",
+          "open": 423.9,
+          "high": 424.105,
+          "low": 423.57,
+          "close": 423.995,
+          "volume": 1143875.0
+        },
+        {
+          "timestamp": "2023-10-20 14:10:00-04:00",
+          "open": 423.99,
+          "high": 424.03,
+          "low": 423.12,
+          "close": 423.23,
+          "volume": 852089.0
+        },
+        {
+          "timestamp": "2023-10-20 14:15:00-04:00",
+          "open": 423.22,
+          "high": 423.305,
+          "low": 422.54,
+          "close": 422.775,
+          "volume": 1216117.0
+        },
+        {
+          "timestamp": "2023-10-20 14:20:00-04:00",
+          "open": 422.77,
+          "high": 423.015,
+          "low": 422.66,
+          "close": 422.76,
+          "volume": 770389.0
+        },
+        {
+          "timestamp": "2023-10-20 14:25:00-04:00",
+          "open": 422.77,
+          "high": 422.85,
+          "low": 422.47,
+          "close": 422.61,
+          "volume": 856105.0
+        },
+        {
+          "timestamp": "2023-10-20 14:30:00-04:00",
+          "open": 422.6,
+          "high": 422.98,
+          "low": 422.315,
+          "close": 422.9,
+          "volume": 1026900.0
+        },
+        {
+          "timestamp": "2023-10-20 14:35:00-04:00",
+          "open": 422.9,
+          "high": 423.33,
+          "low": 422.56,
+          "close": 422.66,
+          "volume": 1377452.0
+        },
+        {
+          "timestamp": "2023-10-20 14:40:00-04:00",
+          "open": 422.68,
+          "high": 422.79,
+          "low": 422.2367,
+          "close": 422.7666,
+          "volume": 942407.0
+        }
+      ],
+      "set": "A"
+    },
+    {
+      "scenario_id": "2023-12-26 13:45:00-05:00",
+      "timestamp": "2023-12-26 13:45:00-05:00",
+      "fold_id": 15,
+      "signal": "flat",
+      "confidence": 0.8882,
+      "confidence_level": "high",
+      "top_features": [
+        {
+          "feature": "Market-wide volatility (VIX, prior day)",
+          "raw_column": "vix_close_lagged",
+          "shap_value": 0.19278298318386078,
+          "direction": "supports"
+        },
+        {
+          "feature": "Distance from 20-day high",
+          "raw_column": "dist_from_20d_high",
+          "shap_value": 0.151522696018219,
+          "direction": "supports"
+        },
+        {
+          "feature": "Average True Range (volatility)",
+          "raw_column": "atr_14",
+          "shap_value": 0.1292995810508728,
+          "direction": "supports"
+        },
+        {
+          "feature": "Realized intraday volatility",
+          "raw_column": "realized_vol_intraday",
+          "shap_value": 0.11659665405750275,
+          "direction": "supports"
+        },
+        {
+          "feature": "Number of trades",
+          "raw_column": "trade_count",
+          "shap_value": 0.10475452244281769,
+          "direction": "supports"
+        },
+        {
+          "feature": "Position within Bollinger bands",
+          "raw_column": "BBP_20_2.0",
+          "shap_value": 0.08434704691171646,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger lower band",
+          "raw_column": "BBL_20_2.0",
+          "shap_value": 0.06927725672721863,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger midline",
+          "raw_column": "BBM_20_2.0",
+          "shap_value": 0.057025741785764694,
+          "direction": "supports"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2023-12-26 11:20:00-05:00",
+          "open": 474.75,
+          "high": 474.845,
+          "low": 474.64,
+          "close": 474.64,
+          "volume": 220114.0
+        },
+        {
+          "timestamp": "2023-12-26 11:25:00-05:00",
+          "open": 474.635,
+          "high": 474.77,
+          "low": 474.58,
+          "close": 474.75,
+          "volume": 890341.0
+        },
+        {
+          "timestamp": "2023-12-26 11:30:00-05:00",
+          "open": 474.745,
+          "high": 474.94,
+          "low": 474.73,
+          "close": 474.91,
+          "volume": 276618.0
+        },
+        {
+          "timestamp": "2023-12-26 11:35:00-05:00",
+          "open": 474.91,
+          "high": 474.9777,
+          "low": 474.84,
+          "close": 474.91,
+          "volume": 732009.0
+        },
+        {
+          "timestamp": "2023-12-26 11:40:00-05:00",
+          "open": 474.905,
+          "high": 475.01,
+          "low": 474.85,
+          "close": 474.93,
+          "volume": 532756.0
+        },
+        {
+          "timestamp": "2023-12-26 11:45:00-05:00",
+          "open": 474.923,
+          "high": 475.1172,
+          "low": 474.92,
+          "close": 474.9713,
+          "volume": 567555.0
+        },
+        {
+          "timestamp": "2023-12-26 11:50:00-05:00",
+          "open": 474.97,
+          "high": 475.0999,
+          "low": 474.96,
+          "close": 475.075,
+          "volume": 198326.0
+        },
+        {
+          "timestamp": "2023-12-26 11:55:00-05:00",
+          "open": 475.07,
+          "high": 475.13,
+          "low": 474.9,
+          "close": 475.0799,
+          "volume": 278211.0
+        },
+        {
+          "timestamp": "2023-12-26 12:00:00-05:00",
+          "open": 475.08,
+          "high": 475.08,
+          "low": 474.88,
+          "close": 474.945,
+          "volume": 225980.0
+        },
+        {
+          "timestamp": "2023-12-26 12:05:00-05:00",
+          "open": 474.95,
+          "high": 474.99,
+          "low": 474.89,
+          "close": 474.96,
+          "volume": 174279.0
+        },
+        {
+          "timestamp": "2023-12-26 12:10:00-05:00",
+          "open": 474.95,
+          "high": 475.18,
+          "low": 474.95,
+          "close": 475.15,
+          "volume": 231652.0
+        },
+        {
+          "timestamp": "2023-12-26 12:15:00-05:00",
+          "open": 475.145,
+          "high": 475.23,
+          "low": 475.1,
+          "close": 475.15,
+          "volume": 326750.0
+        },
+        {
+          "timestamp": "2023-12-26 12:20:00-05:00",
+          "open": 475.1491,
+          "high": 475.23,
+          "low": 475.065,
+          "close": 475.11,
+          "volume": 564866.0
+        },
+        {
+          "timestamp": "2023-12-26 12:25:00-05:00",
+          "open": 475.1,
+          "high": 475.1995,
+          "low": 475.06,
+          "close": 475.07,
+          "volume": 199509.0
+        },
+        {
+          "timestamp": "2023-12-26 12:30:00-05:00",
+          "open": 475.07,
+          "high": 475.15,
+          "low": 475.0,
+          "close": 475.001,
+          "volume": 216747.0
+        },
+        {
+          "timestamp": "2023-12-26 12:35:00-05:00",
+          "open": 475.0,
+          "high": 475.0399,
+          "low": 474.85,
+          "close": 474.9,
+          "volume": 262203.0
+        },
+        {
+          "timestamp": "2023-12-26 12:40:00-05:00",
+          "open": 474.9,
+          "high": 475.09,
+          "low": 474.9,
+          "close": 475.07,
+          "volume": 195958.0
+        },
+        {
+          "timestamp": "2023-12-26 12:45:00-05:00",
+          "open": 475.07,
+          "high": 475.4,
+          "low": 475.06,
+          "close": 475.3499,
+          "volume": 656035.0
+        },
+        {
+          "timestamp": "2023-12-26 12:50:00-05:00",
+          "open": 475.35,
+          "high": 475.355,
+          "low": 475.16,
+          "close": 475.325,
+          "volume": 290289.0
+        },
+        {
+          "timestamp": "2023-12-26 12:55:00-05:00",
+          "open": 475.3223,
+          "high": 475.335,
+          "low": 475.019,
+          "close": 475.05,
+          "volume": 287939.0
+        },
+        {
+          "timestamp": "2023-12-26 13:00:00-05:00",
+          "open": 475.06,
+          "high": 475.24,
+          "low": 475.0202,
+          "close": 475.205,
+          "volume": 192928.0
+        },
+        {
+          "timestamp": "2023-12-26 13:05:00-05:00",
+          "open": 475.2,
+          "high": 475.22,
+          "low": 475.1299,
+          "close": 475.1799,
+          "volume": 171153.0
+        },
+        {
+          "timestamp": "2023-12-26 13:10:00-05:00",
+          "open": 475.18,
+          "high": 475.4,
+          "low": 475.18,
+          "close": 475.29,
+          "volume": 246905.0
+        },
+        {
+          "timestamp": "2023-12-26 13:15:00-05:00",
+          "open": 475.29,
+          "high": 475.29,
+          "low": 475.18,
+          "close": 475.23,
+          "volume": 175070.0
+        },
+        {
+          "timestamp": "2023-12-26 13:20:00-05:00",
+          "open": 475.225,
+          "high": 475.46,
+          "low": 475.21,
+          "close": 475.43,
+          "volume": 279650.0
+        },
+        {
+          "timestamp": "2023-12-26 13:25:00-05:00",
+          "open": 475.43,
+          "high": 475.46,
+          "low": 475.29,
+          "close": 475.3113,
+          "volume": 477924.0
+        },
+        {
+          "timestamp": "2023-12-26 13:30:00-05:00",
+          "open": 475.31,
+          "high": 475.42,
+          "low": 475.275,
+          "close": 475.278,
+          "volume": 203215.0
+        },
+        {
+          "timestamp": "2023-12-26 13:35:00-05:00",
+          "open": 475.2713,
+          "high": 475.2999,
+          "low": 475.2,
+          "close": 475.225,
+          "volume": 211841.0
+        },
+        {
+          "timestamp": "2023-12-26 13:40:00-05:00",
+          "open": 475.23,
+          "high": 475.328,
+          "low": 475.19,
+          "close": 475.295,
+          "volume": 210564.0
+        },
+        {
+          "timestamp": "2023-12-26 13:45:00-05:00",
+          "open": 475.29,
+          "high": 475.4,
+          "low": 475.29,
+          "close": 475.37,
+          "volume": 165878.0
+        }
+      ],
+      "set": "A"
+    },
+    {
+      "scenario_id": "2024-07-08 11:20:00-04:00",
+      "timestamp": "2024-07-08 11:20:00-04:00",
+      "fold_id": 22,
+      "signal": "flat",
+      "confidence": 0.8107,
+      "confidence_level": "high",
+      "top_features": [
+        {
+          "feature": "Market-wide volatility (VIX, prior day)",
+          "raw_column": "vix_close_lagged",
+          "shap_value": 0.21627306938171387,
+          "direction": "supports"
+        },
+        {
+          "feature": "Average True Range (volatility)",
+          "raw_column": "atr_14",
+          "shap_value": 0.19525499641895294,
+          "direction": "supports"
+        },
+        {
+          "feature": "Realized intraday volatility",
+          "raw_column": "realized_vol_intraday",
+          "shap_value": 0.14958345890045166,
+          "direction": "supports"
+        },
+        {
+          "feature": "Distance from 20-day high",
+          "raw_column": "dist_from_20d_high",
+          "shap_value": 0.10115613043308258,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger midline",
+          "raw_column": "BBM_20_2.0",
+          "shap_value": -0.0626659020781517,
+          "direction": "against"
+        },
+        {
+          "feature": "On-balance volume (buying/selling pressure)",
+          "raw_column": "obv",
+          "shap_value": -0.055742762982845306,
+          "direction": "against"
+        },
+        {
+          "feature": "Distance from 20-day low",
+          "raw_column": "dist_from_20d_low",
+          "shap_value": 0.037617627531290054,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger upper band",
+          "raw_column": "BBU_20_2.0",
+          "shap_value": -0.036481812596321106,
+          "direction": "against"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2024-07-05 15:30:00-04:00",
+          "open": 554.35,
+          "high": 554.51,
+          "low": 554.25,
+          "close": 554.48,
+          "volume": 707099.0
+        },
+        {
+          "timestamp": "2024-07-05 15:35:00-04:00",
+          "open": 554.48,
+          "high": 554.64,
+          "low": 554.45,
+          "close": 554.5899,
+          "volume": 484151.0
+        },
+        {
+          "timestamp": "2024-07-05 15:40:00-04:00",
+          "open": 554.57,
+          "high": 554.87,
+          "low": 554.53,
+          "close": 554.82,
+          "volume": 799976.0
+        },
+        {
+          "timestamp": "2024-07-05 15:45:00-04:00",
+          "open": 554.82,
+          "high": 554.855,
+          "low": 554.65,
+          "close": 554.72,
+          "volume": 2294766.0
+        },
+        {
+          "timestamp": "2024-07-05 15:50:00-04:00",
+          "open": 554.7,
+          "high": 555.05,
+          "low": 554.65,
+          "close": 554.955,
+          "volume": 1348093.0
+        },
+        {
+          "timestamp": "2024-07-05 15:55:00-04:00",
+          "open": 554.96,
+          "high": 555.05,
+          "low": 554.5,
+          "close": 554.7,
+          "volume": 2608187.0
+        },
+        {
+          "timestamp": "2024-07-05 16:00:00-04:00",
+          "open": 554.7,
+          "high": 554.79,
+          "low": 552.2221,
+          "close": 554.33,
+          "volume": 3175005.0
+        },
+        {
+          "timestamp": "2024-07-08 09:30:00-04:00",
+          "open": 555.44,
+          "high": 556.1085,
+          "low": 555.29,
+          "close": 555.9,
+          "volume": 1260011.0
+        },
+        {
+          "timestamp": "2024-07-08 09:35:00-04:00",
+          "open": 555.905,
+          "high": 555.905,
+          "low": 555.62,
+          "close": 555.7,
+          "volume": 393130.0
+        },
+        {
+          "timestamp": "2024-07-08 09:40:00-04:00",
+          "open": 555.71,
+          "high": 555.84,
+          "low": 555.575,
+          "close": 555.84,
+          "volume": 369250.0
+        },
+        {
+          "timestamp": "2024-07-08 09:45:00-04:00",
+          "open": 555.85,
+          "high": 556.13,
+          "low": 555.77,
+          "close": 555.97,
+          "volume": 311208.0
+        },
+        {
+          "timestamp": "2024-07-08 09:50:00-04:00",
+          "open": 555.97,
+          "high": 556.2501,
+          "low": 555.97,
+          "close": 556.0399,
+          "volume": 312028.0
+        },
+        {
+          "timestamp": "2024-07-08 09:55:00-04:00",
+          "open": 556.02,
+          "high": 556.05,
+          "low": 555.84,
+          "close": 556.02,
+          "volume": 442738.0
+        },
+        {
+          "timestamp": "2024-07-08 10:00:00-04:00",
+          "open": 556.01,
+          "high": 556.04,
+          "low": 555.59,
+          "close": 555.81,
+          "volume": 372509.0
+        },
+        {
+          "timestamp": "2024-07-08 10:05:00-04:00",
+          "open": 555.8,
+          "high": 555.85,
+          "low": 555.71,
+          "close": 555.75,
+          "volume": 310148.0
+        },
+        {
+          "timestamp": "2024-07-08 10:10:00-04:00",
+          "open": 555.75,
+          "high": 555.9089,
+          "low": 555.7,
+          "close": 555.9089,
+          "volume": 164018.0
+        },
+        {
+          "timestamp": "2024-07-08 10:15:00-04:00",
+          "open": 555.89,
+          "high": 555.9,
+          "low": 555.51,
+          "close": 555.52,
+          "volume": 355496.0
+        },
+        {
+          "timestamp": "2024-07-08 10:20:00-04:00",
+          "open": 555.52,
+          "high": 555.55,
+          "low": 555.16,
+          "close": 555.47,
+          "volume": 566056.0
+        },
+        {
+          "timestamp": "2024-07-08 10:25:00-04:00",
+          "open": 555.46,
+          "high": 555.59,
+          "low": 555.37,
+          "close": 555.4917,
+          "volume": 253113.0
+        },
+        {
+          "timestamp": "2024-07-08 10:30:00-04:00",
+          "open": 555.49,
+          "high": 555.57,
+          "low": 555.25,
+          "close": 555.32,
+          "volume": 205547.0
+        },
+        {
+          "timestamp": "2024-07-08 10:35:00-04:00",
+          "open": 555.31,
+          "high": 555.37,
+          "low": 554.91,
+          "close": 555.27,
+          "volume": 364305.0
+        },
+        {
+          "timestamp": "2024-07-08 10:40:00-04:00",
+          "open": 555.2788,
+          "high": 555.33,
+          "low": 555.05,
+          "close": 555.115,
+          "volume": 242797.0
+        },
+        {
+          "timestamp": "2024-07-08 10:45:00-04:00",
+          "open": 555.11,
+          "high": 555.25,
+          "low": 555.06,
+          "close": 555.2,
+          "volume": 674791.0
+        },
+        {
+          "timestamp": "2024-07-08 10:50:00-04:00",
+          "open": 555.19,
+          "high": 555.23,
+          "low": 554.991,
+          "close": 555.1,
+          "volume": 114350.0
+        },
+        {
+          "timestamp": "2024-07-08 10:55:00-04:00",
+          "open": 555.105,
+          "high": 555.23,
+          "low": 554.9201,
+          "close": 555.2,
+          "volume": 178525.0
+        },
+        {
+          "timestamp": "2024-07-08 11:00:00-04:00",
+          "open": 555.21,
+          "high": 555.53,
+          "low": 555.1101,
+          "close": 555.35,
+          "volume": 266569.0
+        },
+        {
+          "timestamp": "2024-07-08 11:05:00-04:00",
+          "open": 555.35,
+          "high": 555.44,
+          "low": 555.275,
+          "close": 555.4099,
+          "volume": 188352.0
+        },
+        {
+          "timestamp": "2024-07-08 11:10:00-04:00",
+          "open": 555.41,
+          "high": 555.46,
+          "low": 555.17,
+          "close": 555.2951,
+          "volume": 246528.0
+        },
+        {
+          "timestamp": "2024-07-08 11:15:00-04:00",
+          "open": 555.3,
+          "high": 555.3501,
+          "low": 555.06,
+          "close": 555.23,
+          "volume": 205964.0
+        },
+        {
+          "timestamp": "2024-07-08 11:20:00-04:00",
+          "open": 555.22,
+          "high": 555.54,
+          "low": 555.2,
+          "close": 555.43,
+          "volume": 182032.0
+        }
+      ],
+      "set": "A"
+    },
+    {
+      "scenario_id": "2025-03-28 12:45:00-04:00",
+      "timestamp": "2025-03-28 12:45:00-04:00",
+      "fold_id": 30,
+      "signal": "down",
+      "confidence": 0.4593,
+      "confidence_level": "low",
+      "top_features": [
+        {
+          "feature": "On-balance volume (buying/selling pressure)",
+          "raw_column": "obv",
+          "shap_value": 0.33718499541282654,
+          "direction": "supports"
+        },
+        {
+          "feature": "Average True Range (volatility)",
+          "raw_column": "atr_14",
+          "shap_value": 0.11432112753391266,
+          "direction": "supports"
+        },
+        {
+          "feature": "Distance from 20-day low",
+          "raw_column": "dist_from_20d_low",
+          "shap_value": 0.08174575120210648,
+          "direction": "supports"
+        },
+        {
+          "feature": "Realized intraday volatility",
+          "raw_column": "realized_vol_intraday",
+          "shap_value": 0.06102699786424637,
+          "direction": "supports"
+        },
+        {
+          "feature": "Upward trend pressure",
+          "raw_column": "DMP_14",
+          "shap_value": 0.056063212454319,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger upper band",
+          "raw_column": "BBU_20_2.0",
+          "shap_value": 0.055888473987579346,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger midline",
+          "raw_column": "BBM_20_2.0",
+          "shap_value": 0.03867201507091522,
+          "direction": "supports"
+        },
+        {
+          "feature": "RSI (momentum strength)",
+          "raw_column": "rsi_14",
+          "shap_value": 0.034684520214796066,
+          "direction": "supports"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2025-03-28 10:20:00-04:00",
+          "open": 560.75,
+          "high": 560.98,
+          "low": 560.3,
+          "close": 560.53,
+          "volume": 983682.0
+        },
+        {
+          "timestamp": "2025-03-28 10:25:00-04:00",
+          "open": 560.55,
+          "high": 560.6,
+          "low": 559.49,
+          "close": 559.57,
+          "volume": 1875712.0
+        },
+        {
+          "timestamp": "2025-03-28 10:30:00-04:00",
+          "open": 559.565,
+          "high": 560.15,
+          "low": 558.77,
+          "close": 559.07,
+          "volume": 1277307.0
+        },
+        {
+          "timestamp": "2025-03-28 10:35:00-04:00",
+          "open": 559.07,
+          "high": 559.47,
+          "low": 558.33,
+          "close": 559.36,
+          "volume": 1356900.0
+        },
+        {
+          "timestamp": "2025-03-28 10:40:00-04:00",
+          "open": 559.35,
+          "high": 559.78,
+          "low": 558.99,
+          "close": 559.6,
+          "volume": 1278063.0
+        },
+        {
+          "timestamp": "2025-03-28 10:45:00-04:00",
+          "open": 559.6,
+          "high": 559.6587,
+          "low": 558.6,
+          "close": 558.7957,
+          "volume": 728489.0
+        },
+        {
+          "timestamp": "2025-03-28 10:50:00-04:00",
+          "open": 558.77,
+          "high": 559.43,
+          "low": 558.61,
+          "close": 559.15,
+          "volume": 461257.0
+        },
+        {
+          "timestamp": "2025-03-28 10:55:00-04:00",
+          "open": 559.16,
+          "high": 559.17,
+          "low": 558.26,
+          "close": 558.79,
+          "volume": 683959.0
+        },
+        {
+          "timestamp": "2025-03-28 11:00:00-04:00",
+          "open": 558.8,
+          "high": 558.84,
+          "low": 557.77,
+          "close": 557.87,
+          "volume": 965987.0
+        },
+        {
+          "timestamp": "2025-03-28 11:05:00-04:00",
+          "open": 557.87,
+          "high": 558.65,
+          "low": 557.86,
+          "close": 558.2358,
+          "volume": 899727.0
+        },
+        {
+          "timestamp": "2025-03-28 11:10:00-04:00",
+          "open": 558.25,
+          "high": 559.35,
+          "low": 558.13,
+          "close": 558.93,
+          "volume": 1268969.0
+        },
+        {
+          "timestamp": "2025-03-28 11:15:00-04:00",
+          "open": 558.9499,
+          "high": 559.25,
+          "low": 558.44,
+          "close": 558.5338,
+          "volume": 558595.0
+        },
+        {
+          "timestamp": "2025-03-28 11:20:00-04:00",
+          "open": 558.52,
+          "high": 558.89,
+          "low": 558.075,
+          "close": 558.205,
+          "volume": 456698.0
+        },
+        {
+          "timestamp": "2025-03-28 11:25:00-04:00",
+          "open": 558.21,
+          "high": 559.06,
+          "low": 558.2,
+          "close": 558.94,
+          "volume": 528250.0
+        },
+        {
+          "timestamp": "2025-03-28 11:30:00-04:00",
+          "open": 558.94,
+          "high": 559.615,
+          "low": 558.695,
+          "close": 559.55,
+          "volume": 629471.0
+        },
+        {
+          "timestamp": "2025-03-28 11:35:00-04:00",
+          "open": 559.54,
+          "high": 559.8,
+          "low": 559.34,
+          "close": 559.65,
+          "volume": 493957.0
+        },
+        {
+          "timestamp": "2025-03-28 11:40:00-04:00",
+          "open": 559.63,
+          "high": 559.73,
+          "low": 558.66,
+          "close": 559.08,
+          "volume": 429566.0
+        },
+        {
+          "timestamp": "2025-03-28 11:45:00-04:00",
+          "open": 559.04,
+          "high": 559.32,
+          "low": 558.78,
+          "close": 559.25,
+          "volume": 298091.0
+        },
+        {
+          "timestamp": "2025-03-28 11:50:00-04:00",
+          "open": 559.24,
+          "high": 559.29,
+          "low": 558.33,
+          "close": 558.4,
+          "volume": 451048.0
+        },
+        {
+          "timestamp": "2025-03-28 11:55:00-04:00",
+          "open": 558.39,
+          "high": 558.6169,
+          "low": 557.91,
+          "close": 557.93,
+          "volume": 400794.0
+        },
+        {
+          "timestamp": "2025-03-28 12:00:00-04:00",
+          "open": 557.92,
+          "high": 558.47,
+          "low": 557.9,
+          "close": 558.4201,
+          "volume": 276807.0
+        },
+        {
+          "timestamp": "2025-03-28 12:05:00-04:00",
+          "open": 558.38,
+          "high": 558.8,
+          "low": 558.23,
+          "close": 558.25,
+          "volume": 448421.0
+        },
+        {
+          "timestamp": "2025-03-28 12:10:00-04:00",
+          "open": 558.27,
+          "high": 558.6788,
+          "low": 558.1001,
+          "close": 558.115,
+          "volume": 345499.0
+        },
+        {
+          "timestamp": "2025-03-28 12:15:00-04:00",
+          "open": 558.1,
+          "high": 558.1785,
+          "low": 556.95,
+          "close": 556.99,
+          "volume": 782117.0
+        },
+        {
+          "timestamp": "2025-03-28 12:20:00-04:00",
+          "open": 556.98,
+          "high": 557.2375,
+          "low": 556.74,
+          "close": 556.8387,
+          "volume": 447491.0
+        },
+        {
+          "timestamp": "2025-03-28 12:25:00-04:00",
+          "open": 556.8,
+          "high": 557.09,
+          "low": 556.631,
+          "close": 556.84,
+          "volume": 577999.0
+        },
+        {
+          "timestamp": "2025-03-28 12:30:00-04:00",
+          "open": 556.845,
+          "high": 557.32,
+          "low": 556.835,
+          "close": 557.1944,
+          "volume": 395431.0
+        },
+        {
+          "timestamp": "2025-03-28 12:35:00-04:00",
+          "open": 557.2,
+          "high": 557.4633,
+          "low": 557.0,
+          "close": 557.03,
+          "volume": 581142.0
+        },
+        {
+          "timestamp": "2025-03-28 12:40:00-04:00",
+          "open": 556.9816,
+          "high": 557.46,
+          "low": 556.87,
+          "close": 556.9,
+          "volume": 464211.0
+        },
+        {
+          "timestamp": "2025-03-28 12:45:00-04:00",
+          "open": 556.88,
+          "high": 557.51,
+          "low": 556.86,
+          "close": 557.19,
+          "volume": 391815.0
+        }
+      ],
+      "set": "A"
+    },
+    {
+      "scenario_id": "2025-07-18 10:35:00-04:00",
+      "timestamp": "2025-07-18 10:35:00-04:00",
+      "fold_id": 34,
+      "signal": "flat",
+      "confidence": 0.7856,
+      "confidence_level": "high",
+      "top_features": [
+        {
+          "feature": "Realized intraday volatility",
+          "raw_column": "realized_vol_intraday",
+          "shap_value": 0.2422625869512558,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger lower band",
+          "raw_column": "BBL_20_2.0",
+          "shap_value": 0.10439455509185791,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger midline",
+          "raw_column": "BBM_20_2.0",
+          "shap_value": 0.09797699749469757,
+          "direction": "supports"
+        },
+        {
+          "feature": "Distance from 20-day high",
+          "raw_column": "dist_from_20d_high",
+          "shap_value": 0.0960400179028511,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger upper band",
+          "raw_column": "BBU_20_2.0",
+          "shap_value": 0.0941987931728363,
+          "direction": "supports"
+        },
+        {
+          "feature": "On-balance volume (buying/selling pressure)",
+          "raw_column": "obv",
+          "shap_value": 0.090306356549263,
+          "direction": "supports"
+        },
+        {
+          "feature": "Market-wide volatility (VIX, prior day)",
+          "raw_column": "vix_close_lagged",
+          "shap_value": -0.08648746460676193,
+          "direction": "against"
+        },
+        {
+          "feature": "Time of day (cyclical)",
+          "raw_column": "session_sin",
+          "shap_value": 0.07805025577545166,
+          "direction": "supports"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2025-07-17 14:45:00-04:00",
+          "open": 627.83,
+          "high": 627.99,
+          "low": 627.77,
+          "close": 627.99,
+          "volume": 602230.0
+        },
+        {
+          "timestamp": "2025-07-17 14:50:00-04:00",
+          "open": 627.99,
+          "high": 628.14,
+          "low": 627.87,
+          "close": 627.95,
+          "volume": 653869.0
+        },
+        {
+          "timestamp": "2025-07-17 14:55:00-04:00",
+          "open": 627.95,
+          "high": 628.035,
+          "low": 627.93,
+          "close": 627.965,
+          "volume": 369127.0
+        },
+        {
+          "timestamp": "2025-07-17 15:00:00-04:00",
+          "open": 627.97,
+          "high": 628.4048,
+          "low": 627.945,
+          "close": 628.28,
+          "volume": 645203.0
+        },
+        {
+          "timestamp": "2025-07-17 15:05:00-04:00",
+          "open": 628.29,
+          "high": 628.305,
+          "low": 628.17,
+          "close": 628.24,
+          "volume": 590659.0
+        },
+        {
+          "timestamp": "2025-07-17 15:10:00-04:00",
+          "open": 628.23,
+          "high": 628.28,
+          "low": 628.1425,
+          "close": 628.25,
+          "volume": 505310.0
+        },
+        {
+          "timestamp": "2025-07-17 15:15:00-04:00",
+          "open": 628.24,
+          "high": 628.32,
+          "low": 628.065,
+          "close": 628.08,
+          "volume": 1009809.0
+        },
+        {
+          "timestamp": "2025-07-17 15:20:00-04:00",
+          "open": 628.07,
+          "high": 628.14,
+          "low": 628.01,
+          "close": 628.09,
+          "volume": 742907.0
+        },
+        {
+          "timestamp": "2025-07-17 15:25:00-04:00",
+          "open": 628.09,
+          "high": 628.095,
+          "low": 627.95,
+          "close": 627.98,
+          "volume": 647867.0
+        },
+        {
+          "timestamp": "2025-07-17 15:30:00-04:00",
+          "open": 627.97,
+          "high": 628.27,
+          "low": 627.96,
+          "close": 628.11,
+          "volume": 1211454.0
+        },
+        {
+          "timestamp": "2025-07-17 15:35:00-04:00",
+          "open": 628.11,
+          "high": 628.21,
+          "low": 628.08,
+          "close": 628.155,
+          "volume": 678710.0
+        },
+        {
+          "timestamp": "2025-07-17 15:40:00-04:00",
+          "open": 628.15,
+          "high": 628.16,
+          "low": 627.8549,
+          "close": 627.9,
+          "volume": 1471023.0
+        },
+        {
+          "timestamp": "2025-07-17 15:45:00-04:00",
+          "open": 627.9,
+          "high": 628.275,
+          "low": 627.78,
+          "close": 628.2181,
+          "volume": 1373652.0
+        },
+        {
+          "timestamp": "2025-07-17 15:50:00-04:00",
+          "open": 628.21,
+          "high": 628.32,
+          "low": 627.66,
+          "close": 628.015,
+          "volume": 2999210.0
+        },
+        {
+          "timestamp": "2025-07-17 15:55:00-04:00",
+          "open": 628.03,
+          "high": 628.29,
+          "low": 627.65,
+          "close": 627.98,
+          "volume": 6888831.0
+        },
+        {
+          "timestamp": "2025-07-17 16:00:00-04:00",
+          "open": 627.98,
+          "high": 628.13,
+          "low": 627.66,
+          "close": 627.7,
+          "volume": 2121083.0
+        },
+        {
+          "timestamp": "2025-07-18 09:30:00-04:00",
+          "open": 629.29,
+          "high": 629.47,
+          "low": 628.69,
+          "close": 628.892,
+          "volume": 1766899.0
+        },
+        {
+          "timestamp": "2025-07-18 09:35:00-04:00",
+          "open": 628.9,
+          "high": 629.06,
+          "low": 628.53,
+          "close": 628.8765,
+          "volume": 880592.0
+        },
+        {
+          "timestamp": "2025-07-18 09:40:00-04:00",
+          "open": 628.88,
+          "high": 628.945,
+          "low": 628.58,
+          "close": 628.6,
+          "volume": 661198.0
+        },
+        {
+          "timestamp": "2025-07-18 09:45:00-04:00",
+          "open": 628.6,
+          "high": 629.19,
+          "low": 628.58,
+          "close": 629.05,
+          "volume": 956448.0
+        },
+        {
+          "timestamp": "2025-07-18 09:50:00-04:00",
+          "open": 629.05,
+          "high": 629.16,
+          "low": 628.44,
+          "close": 628.68,
+          "volume": 1003249.0
+        },
+        {
+          "timestamp": "2025-07-18 09:55:00-04:00",
+          "open": 628.69,
+          "high": 628.785,
+          "low": 628.565,
+          "close": 628.64,
+          "volume": 622886.0
+        },
+        {
+          "timestamp": "2025-07-18 10:00:00-04:00",
+          "open": 628.65,
+          "high": 629.35,
+          "low": 628.42,
+          "close": 628.5209,
+          "volume": 817159.0
+        },
+        {
+          "timestamp": "2025-07-18 10:05:00-04:00",
+          "open": 628.55,
+          "high": 628.62,
+          "low": 628.3101,
+          "close": 628.4399,
+          "volume": 612554.0
+        },
+        {
+          "timestamp": "2025-07-18 10:10:00-04:00",
+          "open": 628.43,
+          "high": 628.485,
+          "low": 627.99,
+          "close": 628.059,
+          "volume": 827733.0
+        },
+        {
+          "timestamp": "2025-07-18 10:15:00-04:00",
+          "open": 628.05,
+          "high": 628.2084,
+          "low": 627.57,
+          "close": 627.9314,
+          "volume": 1099560.0
+        },
+        {
+          "timestamp": "2025-07-18 10:20:00-04:00",
+          "open": 627.94,
+          "high": 628.13,
+          "low": 627.6,
+          "close": 627.688,
+          "volume": 964866.0
+        },
+        {
+          "timestamp": "2025-07-18 10:25:00-04:00",
+          "open": 627.68,
+          "high": 627.6809,
+          "low": 627.24,
+          "close": 627.37,
+          "volume": 882882.0
+        },
+        {
+          "timestamp": "2025-07-18 10:30:00-04:00",
+          "open": 627.4,
+          "high": 627.76,
+          "low": 627.285,
+          "close": 627.69,
+          "volume": 3865085.0
+        },
+        {
+          "timestamp": "2025-07-18 10:35:00-04:00",
+          "open": 627.69,
+          "high": 627.91,
+          "low": 627.32,
+          "close": 627.33,
+          "volume": 538838.0
+        }
+      ],
+      "set": "A"
+    },
+    {
+      "scenario_id": "2025-12-18 13:05:00-05:00",
+      "timestamp": "2025-12-18 13:05:00-05:00",
+      "fold_id": 39,
+      "signal": "up",
+      "confidence": 0.3841,
+      "confidence_level": "low",
+      "top_features": [
+        {
+          "feature": "Average True Range (volatility)",
+          "raw_column": "atr_14",
+          "shap_value": 0.1510252058506012,
+          "direction": "supports"
+        },
+        {
+          "feature": "Realized intraday volatility",
+          "raw_column": "realized_vol_intraday",
+          "shap_value": 0.1330713927745819,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger lower band",
+          "raw_column": "BBL_20_2.0",
+          "shap_value": 0.08060786128044128,
+          "direction": "supports"
+        },
+        {
+          "feature": "On-balance volume (buying/selling pressure)",
+          "raw_column": "obv",
+          "shap_value": -0.04355717450380325,
+          "direction": "against"
+        },
+        {
+          "feature": "Bollinger upper band",
+          "raw_column": "BBU_20_2.0",
+          "shap_value": -0.03862496837973595,
+          "direction": "against"
+        },
+        {
+          "feature": "Number of trades",
+          "raw_column": "trade_count",
+          "shap_value": 0.03852801397442818,
+          "direction": "supports"
+        },
+        {
+          "feature": "Distance from 20-day high",
+          "raw_column": "dist_from_20d_high",
+          "shap_value": 0.03525089472532272,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger midline",
+          "raw_column": "BBM_20_2.0",
+          "shap_value": 0.03506775572896004,
+          "direction": "supports"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2025-12-18 10:40:00-05:00",
+          "open": 680.25,
+          "high": 680.6,
+          "low": 679.915,
+          "close": 680.46,
+          "volume": 1365874.0
+        },
+        {
+          "timestamp": "2025-12-18 10:45:00-05:00",
+          "open": 680.46,
+          "high": 680.52,
+          "low": 679.875,
+          "close": 680.0903,
+          "volume": 1301655.0
+        },
+        {
+          "timestamp": "2025-12-18 10:50:00-05:00",
+          "open": 680.1,
+          "high": 680.35,
+          "low": 679.71,
+          "close": 679.95,
+          "volume": 991560.0
+        },
+        {
+          "timestamp": "2025-12-18 10:55:00-05:00",
+          "open": 679.95,
+          "high": 680.12,
+          "low": 679.665,
+          "close": 680.03,
+          "volume": 694273.0
+        },
+        {
+          "timestamp": "2025-12-18 11:00:00-05:00",
+          "open": 680.03,
+          "high": 680.34,
+          "low": 679.83,
+          "close": 680.27,
+          "volume": 725166.0
+        },
+        {
+          "timestamp": "2025-12-18 11:05:00-05:00",
+          "open": 680.27,
+          "high": 680.55,
+          "low": 680.21,
+          "close": 680.4602,
+          "volume": 831968.0
+        },
+        {
+          "timestamp": "2025-12-18 11:10:00-05:00",
+          "open": 680.46,
+          "high": 680.74,
+          "low": 679.9,
+          "close": 679.935,
+          "volume": 772624.0
+        },
+        {
+          "timestamp": "2025-12-18 11:15:00-05:00",
+          "open": 679.935,
+          "high": 680.39,
+          "low": 679.89,
+          "close": 680.1,
+          "volume": 902645.0
+        },
+        {
+          "timestamp": "2025-12-18 11:20:00-05:00",
+          "open": 680.105,
+          "high": 680.365,
+          "low": 679.97,
+          "close": 680.09,
+          "volume": 529511.0
+        },
+        {
+          "timestamp": "2025-12-18 11:25:00-05:00",
+          "open": 680.09,
+          "high": 680.38,
+          "low": 679.52,
+          "close": 679.745,
+          "volume": 640425.0
+        },
+        {
+          "timestamp": "2025-12-18 11:30:00-05:00",
+          "open": 679.74,
+          "high": 680.2,
+          "low": 679.74,
+          "close": 680.04,
+          "volume": 640350.0
+        },
+        {
+          "timestamp": "2025-12-18 11:35:00-05:00",
+          "open": 680.05,
+          "high": 680.71,
+          "low": 680.05,
+          "close": 680.39,
+          "volume": 1049978.0
+        },
+        {
+          "timestamp": "2025-12-18 11:40:00-05:00",
+          "open": 680.405,
+          "high": 680.55,
+          "low": 680.26,
+          "close": 680.27,
+          "volume": 921430.0
+        },
+        {
+          "timestamp": "2025-12-18 11:45:00-05:00",
+          "open": 680.26,
+          "high": 680.375,
+          "low": 679.81,
+          "close": 679.95,
+          "volume": 804364.0
+        },
+        {
+          "timestamp": "2025-12-18 11:50:00-05:00",
+          "open": 679.94,
+          "high": 680.18,
+          "low": 679.665,
+          "close": 680.0,
+          "volume": 628638.0
+        },
+        {
+          "timestamp": "2025-12-18 11:55:00-05:00",
+          "open": 679.985,
+          "high": 680.14,
+          "low": 679.325,
+          "close": 679.56,
+          "volume": 690327.0
+        },
+        {
+          "timestamp": "2025-12-18 12:00:00-05:00",
+          "open": 679.55,
+          "high": 679.5707,
+          "low": 678.81,
+          "close": 678.84,
+          "volume": 759320.0
+        },
+        {
+          "timestamp": "2025-12-18 12:05:00-05:00",
+          "open": 678.84,
+          "high": 678.89,
+          "low": 676.83,
+          "close": 676.8601,
+          "volume": 2371074.0
+        },
+        {
+          "timestamp": "2025-12-18 12:10:00-05:00",
+          "open": 676.85,
+          "high": 677.09,
+          "low": 675.99,
+          "close": 676.44,
+          "volume": 2404959.0
+        },
+        {
+          "timestamp": "2025-12-18 12:15:00-05:00",
+          "open": 676.42,
+          "high": 676.44,
+          "low": 675.19,
+          "close": 675.93,
+          "volume": 2184695.0
+        },
+        {
+          "timestamp": "2025-12-18 12:20:00-05:00",
+          "open": 675.93,
+          "high": 676.55,
+          "low": 675.13,
+          "close": 675.26,
+          "volume": 1856490.0
+        },
+        {
+          "timestamp": "2025-12-18 12:25:00-05:00",
+          "open": 675.27,
+          "high": 676.0,
+          "low": 674.9,
+          "close": 675.78,
+          "volume": 1392690.0
+        },
+        {
+          "timestamp": "2025-12-18 12:30:00-05:00",
+          "open": 675.79,
+          "high": 676.785,
+          "low": 675.48,
+          "close": 676.6862,
+          "volume": 1358412.0
+        },
+        {
+          "timestamp": "2025-12-18 12:35:00-05:00",
+          "open": 676.69,
+          "high": 677.29,
+          "low": 676.43,
+          "close": 677.23,
+          "volume": 932162.0
+        },
+        {
+          "timestamp": "2025-12-18 12:40:00-05:00",
+          "open": 677.24,
+          "high": 678.26,
+          "low": 677.24,
+          "close": 678.26,
+          "volume": 1169505.0
+        },
+        {
+          "timestamp": "2025-12-18 12:45:00-05:00",
+          "open": 678.26,
+          "high": 678.69,
+          "low": 677.63,
+          "close": 677.882,
+          "volume": 1119150.0
+        },
+        {
+          "timestamp": "2025-12-18 12:50:00-05:00",
+          "open": 677.851,
+          "high": 678.07,
+          "low": 677.3201,
+          "close": 677.86,
+          "volume": 1188330.0
+        },
+        {
+          "timestamp": "2025-12-18 12:55:00-05:00",
+          "open": 677.85,
+          "high": 678.39,
+          "low": 677.44,
+          "close": 678.37,
+          "volume": 769151.0
+        },
+        {
+          "timestamp": "2025-12-18 13:00:00-05:00",
+          "open": 678.36,
+          "high": 678.39,
+          "low": 677.58,
+          "close": 677.65,
+          "volume": 916904.0
+        },
+        {
+          "timestamp": "2025-12-18 13:05:00-05:00",
+          "open": 677.66,
+          "high": 678.4,
+          "low": 677.61,
+          "close": 678.38,
+          "volume": 594023.0
+        }
+      ],
+      "set": "A"
+    },
+    {
+      "scenario_id": "2026-02-17 13:05:00-05:00",
+      "timestamp": "2026-02-17 13:05:00-05:00",
+      "fold_id": 41,
+      "signal": "up",
+      "confidence": 0.3797,
+      "confidence_level": "low",
+      "top_features": [
+        {
+          "feature": "Average True Range (volatility)",
+          "raw_column": "atr_14",
+          "shap_value": 0.1586284190416336,
+          "direction": "supports"
+        },
+        {
+          "feature": "Market-wide volatility (VIX, prior day)",
+          "raw_column": "vix_close_lagged",
+          "shap_value": 0.12323208898305893,
+          "direction": "supports"
+        },
+        {
+          "feature": "Realized intraday volatility",
+          "raw_column": "realized_vol_intraday",
+          "shap_value": 0.11311956495046616,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger upper band",
+          "raw_column": "BBU_20_2.0",
+          "shap_value": -0.06060636043548584,
+          "direction": "against"
+        },
+        {
+          "feature": "Distance from 20-day high",
+          "raw_column": "dist_from_20d_high",
+          "shap_value": 0.05009029805660248,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger lower band",
+          "raw_column": "BBL_20_2.0",
+          "shap_value": 0.02471374347805977,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger band width",
+          "raw_column": "BBB_20_2.0",
+          "shap_value": 0.016203373670578003,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger midline",
+          "raw_column": "BBM_20_2.0",
+          "shap_value": -0.015903634950518608,
+          "direction": "against"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2026-02-17 10:40:00-05:00",
+          "open": 675.87,
+          "high": 676.76,
+          "low": 675.78,
+          "close": 676.645,
+          "volume": 1166051.0
+        },
+        {
+          "timestamp": "2026-02-17 10:45:00-05:00",
+          "open": 676.66,
+          "high": 678.21,
+          "low": 676.52,
+          "close": 677.68,
+          "volume": 1082301.0
+        },
+        {
+          "timestamp": "2026-02-17 10:50:00-05:00",
+          "open": 677.66,
+          "high": 678.26,
+          "low": 677.0,
+          "close": 677.93,
+          "volume": 1068590.0
+        },
+        {
+          "timestamp": "2026-02-17 10:55:00-05:00",
+          "open": 677.93,
+          "high": 678.64,
+          "low": 677.63,
+          "close": 678.61,
+          "volume": 881465.0
+        },
+        {
+          "timestamp": "2026-02-17 11:00:00-05:00",
+          "open": 678.6,
+          "high": 679.99,
+          "low": 678.45,
+          "close": 679.52,
+          "volume": 1238449.0
+        },
+        {
+          "timestamp": "2026-02-17 11:05:00-05:00",
+          "open": 679.52,
+          "high": 681.17,
+          "low": 679.425,
+          "close": 681.05,
+          "volume": 1339342.0
+        },
+        {
+          "timestamp": "2026-02-17 11:10:00-05:00",
+          "open": 681.05,
+          "high": 682.58,
+          "low": 681.04,
+          "close": 682.335,
+          "volume": 2311921.0
+        },
+        {
+          "timestamp": "2026-02-17 11:15:00-05:00",
+          "open": 682.32,
+          "high": 682.9007,
+          "low": 681.9605,
+          "close": 682.73,
+          "volume": 1442284.0
+        },
+        {
+          "timestamp": "2026-02-17 11:20:00-05:00",
+          "open": 682.72,
+          "high": 683.24,
+          "low": 682.21,
+          "close": 683.01,
+          "volume": 1277351.0
+        },
+        {
+          "timestamp": "2026-02-17 11:25:00-05:00",
+          "open": 683.03,
+          "high": 683.12,
+          "low": 681.515,
+          "close": 681.6,
+          "volume": 1286717.0
+        },
+        {
+          "timestamp": "2026-02-17 11:30:00-05:00",
+          "open": 681.575,
+          "high": 681.9,
+          "low": 680.81,
+          "close": 681.74,
+          "volume": 1193584.0
+        },
+        {
+          "timestamp": "2026-02-17 11:35:00-05:00",
+          "open": 681.74,
+          "high": 682.84,
+          "low": 681.52,
+          "close": 682.42,
+          "volume": 837732.0
+        },
+        {
+          "timestamp": "2026-02-17 11:40:00-05:00",
+          "open": 682.42,
+          "high": 682.57,
+          "low": 681.75,
+          "close": 681.8,
+          "volume": 694186.0
+        },
+        {
+          "timestamp": "2026-02-17 11:45:00-05:00",
+          "open": 681.79,
+          "high": 682.19,
+          "low": 681.52,
+          "close": 681.66,
+          "volume": 670056.0
+        },
+        {
+          "timestamp": "2026-02-17 11:50:00-05:00",
+          "open": 681.69,
+          "high": 682.45,
+          "low": 681.67,
+          "close": 682.42,
+          "volume": 543921.0
+        },
+        {
+          "timestamp": "2026-02-17 11:55:00-05:00",
+          "open": 682.44,
+          "high": 683.03,
+          "low": 681.95,
+          "close": 682.46,
+          "volume": 810439.0
+        },
+        {
+          "timestamp": "2026-02-17 12:00:00-05:00",
+          "open": 682.42,
+          "high": 682.54,
+          "low": 681.53,
+          "close": 681.98,
+          "volume": 513177.0
+        },
+        {
+          "timestamp": "2026-02-17 12:05:00-05:00",
+          "open": 681.97,
+          "high": 682.39,
+          "low": 681.67,
+          "close": 681.7,
+          "volume": 451720.0
+        },
+        {
+          "timestamp": "2026-02-17 12:10:00-05:00",
+          "open": 681.69,
+          "high": 681.91,
+          "low": 680.86,
+          "close": 681.25,
+          "volume": 646556.0
+        },
+        {
+          "timestamp": "2026-02-17 12:15:00-05:00",
+          "open": 681.25,
+          "high": 681.61,
+          "low": 680.99,
+          "close": 681.32,
+          "volume": 509217.0
+        },
+        {
+          "timestamp": "2026-02-17 12:20:00-05:00",
+          "open": 681.36,
+          "high": 681.52,
+          "low": 680.4313,
+          "close": 681.12,
+          "volume": 796605.0
+        },
+        {
+          "timestamp": "2026-02-17 12:25:00-05:00",
+          "open": 681.13,
+          "high": 682.205,
+          "low": 680.98,
+          "close": 682.2,
+          "volume": 556772.0
+        },
+        {
+          "timestamp": "2026-02-17 12:30:00-05:00",
+          "open": 682.21,
+          "high": 682.32,
+          "low": 680.99,
+          "close": 681.77,
+          "volume": 661222.0
+        },
+        {
+          "timestamp": "2026-02-17 12:35:00-05:00",
+          "open": 681.75,
+          "high": 682.09,
+          "low": 681.38,
+          "close": 681.63,
+          "volume": 255937.0
+        },
+        {
+          "timestamp": "2026-02-17 12:40:00-05:00",
+          "open": 681.63,
+          "high": 681.64,
+          "low": 680.0125,
+          "close": 680.04,
+          "volume": 563851.0
+        },
+        {
+          "timestamp": "2026-02-17 12:45:00-05:00",
+          "open": 680.03,
+          "high": 680.65,
+          "low": 679.55,
+          "close": 680.26,
+          "volume": 938412.0
+        },
+        {
+          "timestamp": "2026-02-17 12:50:00-05:00",
+          "open": 680.26,
+          "high": 680.67,
+          "low": 679.15,
+          "close": 679.465,
+          "volume": 806022.0
+        },
+        {
+          "timestamp": "2026-02-17 12:55:00-05:00",
+          "open": 679.46,
+          "high": 681.17,
+          "low": 679.3,
+          "close": 681.0103,
+          "volume": 728015.0
+        },
+        {
+          "timestamp": "2026-02-17 13:00:00-05:00",
+          "open": 681.02,
+          "high": 681.18,
+          "low": 680.33,
+          "close": 680.78,
+          "volume": 468830.0
+        },
+        {
+          "timestamp": "2026-02-17 13:05:00-05:00",
+          "open": 680.78,
+          "high": 680.89,
+          "low": 680.1,
+          "close": 680.34,
+          "volume": 356673.0
+        }
+      ],
+      "set": "A"
+    }
+  ],
+  "set_b": [
+    {
+      "scenario_id": "2022-09-27 11:00:00-04:00",
+      "timestamp": "2022-09-27 11:00:00-04:00",
+      "fold_id": 0,
+      "signal": "up",
+      "confidence": 0.9032,
+      "confidence_level": "high",
+      "top_features": [
+        {
+          "feature": "Trend strength (ADX)",
+          "raw_column": "ADX_14",
+          "shap_value": 0.5091958045959473,
+          "direction": "supports"
+        },
+        {
+          "feature": "Market-wide volatility (VIX, prior day)",
+          "raw_column": "vix_close_lagged",
+          "shap_value": 0.469475120306015,
+          "direction": "supports"
+        },
+        {
+          "feature": "On-balance volume (buying/selling pressure)",
+          "raw_column": "obv",
+          "shap_value": 0.3444017469882965,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger lower band",
+          "raw_column": "BBL_20_2.0",
+          "shap_value": 0.21678239107131958,
+          "direction": "supports"
+        },
+        {
+          "feature": "MACD line",
+          "raw_column": "MACD_12_26_9",
+          "shap_value": 0.19969013333320618,
+          "direction": "supports"
+        },
+        {
+          "feature": "Time of day (session progress)",
+          "raw_column": "session_progress",
+          "shap_value": 0.18476258218288422,
+          "direction": "supports"
+        },
+        {
+          "feature": "Average trade size",
+          "raw_column": "avg_trade_size",
+          "shap_value": -0.10621508210897446,
+          "direction": "against"
+        },
+        {
+          "feature": "RSI (momentum strength)",
+          "raw_column": "rsi_14",
+          "shap_value": -0.08271969854831696,
+          "direction": "against"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2022-09-26 15:10:00-04:00",
+          "open": 366.17,
+          "high": 366.23,
+          "low": 365.49,
+          "close": 365.62,
+          "volume": 947855.0
+        },
+        {
+          "timestamp": "2022-09-26 15:15:00-04:00",
+          "open": 365.625,
+          "high": 366.15,
+          "low": 364.81,
+          "close": 365.71,
+          "volume": 1379488.0
+        },
+        {
+          "timestamp": "2022-09-26 15:20:00-04:00",
+          "open": 365.73,
+          "high": 365.99,
+          "low": 365.0,
+          "close": 365.25,
+          "volume": 1503821.0
+        },
+        {
+          "timestamp": "2022-09-26 15:25:00-04:00",
+          "open": 365.25,
+          "high": 365.62,
+          "low": 364.98,
+          "close": 365.46,
+          "volume": 1116675.0
+        },
+        {
+          "timestamp": "2022-09-26 15:30:00-04:00",
+          "open": 365.47,
+          "high": 365.47,
+          "low": 364.7,
+          "close": 365.05,
+          "volume": 1020056.0
+        },
+        {
+          "timestamp": "2022-09-26 15:35:00-04:00",
+          "open": 365.055,
+          "high": 365.84,
+          "low": 364.75,
+          "close": 364.9521,
+          "volume": 1438940.0
+        },
+        {
+          "timestamp": "2022-09-26 15:40:00-04:00",
+          "open": 364.96,
+          "high": 365.68,
+          "low": 364.56,
+          "close": 365.31,
+          "volume": 1022138.0
+        },
+        {
+          "timestamp": "2022-09-26 15:45:00-04:00",
+          "open": 365.29,
+          "high": 365.99,
+          "low": 365.07,
+          "close": 365.79,
+          "volume": 1830650.0
+        },
+        {
+          "timestamp": "2022-09-26 15:50:00-04:00",
+          "open": 365.79,
+          "high": 366.86,
+          "low": 364.96,
+          "close": 366.13,
+          "volume": 3692685.0
+        },
+        {
+          "timestamp": "2022-09-26 15:55:00-04:00",
+          "open": 366.13,
+          "high": 366.13,
+          "low": 363.94,
+          "close": 364.31,
+          "volume": 6060488.0
+        },
+        {
+          "timestamp": "2022-09-26 16:00:00-04:00",
+          "open": 364.31,
+          "high": 364.71,
+          "low": 363.49,
+          "close": 363.51,
+          "volume": 4405701.0
+        },
+        {
+          "timestamp": "2022-09-27 09:30:00-04:00",
+          "open": 368.02,
+          "high": 369.219,
+          "low": 367.61,
+          "close": 369.198,
+          "volume": 3143071.0
+        },
+        {
+          "timestamp": "2022-09-27 09:35:00-04:00",
+          "open": 369.19,
+          "high": 369.85,
+          "low": 368.87,
+          "close": 369.82,
+          "volume": 1674014.0
+        },
+        {
+          "timestamp": "2022-09-27 09:40:00-04:00",
+          "open": 369.82,
+          "high": 370.4,
+          "low": 369.45,
+          "close": 369.68,
+          "volume": 1768683.0
+        },
+        {
+          "timestamp": "2022-09-27 09:45:00-04:00",
+          "open": 369.69,
+          "high": 369.77,
+          "low": 368.21,
+          "close": 368.3077,
+          "volume": 1708413.0
+        },
+        {
+          "timestamp": "2022-09-27 09:50:00-04:00",
+          "open": 368.29,
+          "high": 369.1,
+          "low": 367.76,
+          "close": 368.81,
+          "volume": 1480447.0
+        },
+        {
+          "timestamp": "2022-09-27 09:55:00-04:00",
+          "open": 368.835,
+          "high": 368.85,
+          "low": 368.06,
+          "close": 368.444,
+          "volume": 1112600.0
+        },
+        {
+          "timestamp": "2022-09-27 10:00:00-04:00",
+          "open": 368.45,
+          "high": 368.6,
+          "low": 366.34,
+          "close": 366.97,
+          "volume": 2109775.0
+        },
+        {
+          "timestamp": "2022-09-27 10:05:00-04:00",
+          "open": 366.97,
+          "high": 367.15,
+          "low": 365.88,
+          "close": 366.23,
+          "volume": 1672047.0
+        },
+        {
+          "timestamp": "2022-09-27 10:10:00-04:00",
+          "open": 366.2399,
+          "high": 367.15,
+          "low": 366.09,
+          "close": 367.06,
+          "volume": 1745557.0
+        },
+        {
+          "timestamp": "2022-09-27 10:15:00-04:00",
+          "open": 367.05,
+          "high": 367.4,
+          "low": 366.5,
+          "close": 367.09,
+          "volume": 1470029.0
+        },
+        {
+          "timestamp": "2022-09-27 10:20:00-04:00",
+          "open": 367.09,
+          "high": 368.02,
+          "low": 366.8801,
+          "close": 367.66,
+          "volume": 1357130.0
+        },
+        {
+          "timestamp": "2022-09-27 10:25:00-04:00",
+          "open": 367.66,
+          "high": 368.17,
+          "low": 366.76,
+          "close": 366.8,
+          "volume": 1001036.0
+        },
+        {
+          "timestamp": "2022-09-27 10:30:00-04:00",
+          "open": 366.8,
+          "high": 368.1389,
+          "low": 366.8,
+          "close": 367.6401,
+          "volume": 1056969.0
+        },
+        {
+          "timestamp": "2022-09-27 10:35:00-04:00",
+          "open": 367.64,
+          "high": 368.52,
+          "low": 367.41,
+          "close": 367.5819,
+          "volume": 1177443.0
+        },
+        {
+          "timestamp": "2022-09-27 10:40:00-04:00",
+          "open": 367.56,
+          "high": 368.71,
+          "low": 367.34,
+          "close": 368.62,
+          "volume": 1242089.0
+        },
+        {
+          "timestamp": "2022-09-27 10:45:00-04:00",
+          "open": 368.63,
+          "high": 368.96,
+          "low": 368.25,
+          "close": 368.81,
+          "volume": 980631.0
+        },
+        {
+          "timestamp": "2022-09-27 10:50:00-04:00",
+          "open": 368.81,
+          "high": 368.92,
+          "low": 368.17,
+          "close": 368.23,
+          "volume": 671918.0
+        },
+        {
+          "timestamp": "2022-09-27 10:55:00-04:00",
+          "open": 368.2,
+          "high": 368.55,
+          "low": 368.11,
+          "close": 368.255,
+          "volume": 892875.0
+        },
+        {
+          "timestamp": "2022-09-27 11:00:00-04:00",
+          "open": 368.3,
+          "high": 368.54,
+          "low": 367.3729,
+          "close": 367.47,
+          "volume": 1122533.0
+        }
+      ],
+      "set": "B"
+    },
+    {
+      "scenario_id": "2022-11-14 12:55:00-05:00",
+      "timestamp": "2022-11-14 12:55:00-05:00",
+      "fold_id": 2,
+      "signal": "down",
+      "confidence": 0.4507,
+      "confidence_level": "low",
+      "top_features": [
+        {
+          "feature": "On-balance volume (buying/selling pressure)",
+          "raw_column": "obv",
+          "shap_value": 0.1861230432987213,
+          "direction": "supports"
+        },
+        {
+          "feature": "Trend strength (ADX)",
+          "raw_column": "ADX_14",
+          "shap_value": 0.150048166513443,
+          "direction": "supports"
+        },
+        {
+          "feature": "Distance from 20-day low",
+          "raw_column": "dist_from_20d_low",
+          "shap_value": -0.10975711792707443,
+          "direction": "against"
+        },
+        {
+          "feature": "Bollinger lower band",
+          "raw_column": "BBL_20_2.0",
+          "shap_value": 0.07416757196187973,
+          "direction": "supports"
+        },
+        {
+          "feature": "MACD momentum",
+          "raw_column": "MACDh_12_26_9",
+          "shap_value": -0.05679113790392876,
+          "direction": "against"
+        },
+        {
+          "feature": "Bollinger midline",
+          "raw_column": "BBM_20_2.0",
+          "shap_value": -0.05347069725394249,
+          "direction": "against"
+        },
+        {
+          "feature": "Average True Range (volatility)",
+          "raw_column": "atr_14",
+          "shap_value": -0.05135593190789223,
+          "direction": "against"
+        },
+        {
+          "feature": "Bollinger band width",
+          "raw_column": "BBB_20_2.0",
+          "shap_value": -0.03602501377463341,
+          "direction": "against"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2022-11-14 10:30:00-05:00",
+          "open": 397.915,
+          "high": 398.52,
+          "low": 397.61,
+          "close": 398.3012,
+          "volume": 682437.0
+        },
+        {
+          "timestamp": "2022-11-14 10:35:00-05:00",
+          "open": 398.31,
+          "high": 398.32,
+          "low": 397.84,
+          "close": 398.23,
+          "volume": 721672.0
+        },
+        {
+          "timestamp": "2022-11-14 10:40:00-05:00",
+          "open": 398.2489,
+          "high": 398.74,
+          "low": 398.17,
+          "close": 398.34,
+          "volume": 506753.0
+        },
+        {
+          "timestamp": "2022-11-14 10:45:00-05:00",
+          "open": 398.33,
+          "high": 398.37,
+          "low": 398.0,
+          "close": 398.0719,
+          "volume": 709401.0
+        },
+        {
+          "timestamp": "2022-11-14 10:50:00-05:00",
+          "open": 398.04,
+          "high": 398.44,
+          "low": 397.87,
+          "close": 398.3007,
+          "volume": 613776.0
+        },
+        {
+          "timestamp": "2022-11-14 10:55:00-05:00",
+          "open": 398.31,
+          "high": 398.81,
+          "low": 398.2,
+          "close": 398.43,
+          "volume": 549001.0
+        },
+        {
+          "timestamp": "2022-11-14 11:00:00-05:00",
+          "open": 398.425,
+          "high": 398.62,
+          "low": 397.69,
+          "close": 397.95,
+          "volume": 998227.0
+        },
+        {
+          "timestamp": "2022-11-14 11:05:00-05:00",
+          "open": 397.96,
+          "high": 398.17,
+          "low": 397.65,
+          "close": 397.98,
+          "volume": 764544.0
+        },
+        {
+          "timestamp": "2022-11-14 11:10:00-05:00",
+          "open": 397.98,
+          "high": 398.03,
+          "low": 396.93,
+          "close": 397.0481,
+          "volume": 1067581.0
+        },
+        {
+          "timestamp": "2022-11-14 11:15:00-05:00",
+          "open": 397.04,
+          "high": 397.16,
+          "low": 396.35,
+          "close": 396.62,
+          "volume": 681133.0
+        },
+        {
+          "timestamp": "2022-11-14 11:20:00-05:00",
+          "open": 396.64,
+          "high": 397.02,
+          "low": 396.52,
+          "close": 396.7987,
+          "volume": 607583.0
+        },
+        {
+          "timestamp": "2022-11-14 11:25:00-05:00",
+          "open": 396.8,
+          "high": 397.06,
+          "low": 396.7,
+          "close": 396.8361,
+          "volume": 425353.0
+        },
+        {
+          "timestamp": "2022-11-14 11:30:00-05:00",
+          "open": 396.8201,
+          "high": 398.1,
+          "low": 396.58,
+          "close": 398.1,
+          "volume": 1005230.0
+        },
+        {
+          "timestamp": "2022-11-14 11:35:00-05:00",
+          "open": 398.1,
+          "high": 398.385,
+          "low": 397.85,
+          "close": 397.9655,
+          "volume": 1004622.0
+        },
+        {
+          "timestamp": "2022-11-14 11:40:00-05:00",
+          "open": 397.97,
+          "high": 398.24,
+          "low": 397.79,
+          "close": 398.0,
+          "volume": 477739.0
+        },
+        {
+          "timestamp": "2022-11-14 11:45:00-05:00",
+          "open": 398.0198,
+          "high": 398.49,
+          "low": 397.97,
+          "close": 398.23,
+          "volume": 615923.0
+        },
+        {
+          "timestamp": "2022-11-14 11:50:00-05:00",
+          "open": 398.24,
+          "high": 398.3699,
+          "low": 397.62,
+          "close": 397.8,
+          "volume": 410595.0
+        },
+        {
+          "timestamp": "2022-11-14 11:55:00-05:00",
+          "open": 397.81,
+          "high": 397.9901,
+          "low": 397.6,
+          "close": 397.89,
+          "volume": 298623.0
+        },
+        {
+          "timestamp": "2022-11-14 12:00:00-05:00",
+          "open": 397.8899,
+          "high": 398.66,
+          "low": 397.63,
+          "close": 398.43,
+          "volume": 499506.0
+        },
+        {
+          "timestamp": "2022-11-14 12:05:00-05:00",
+          "open": 398.41,
+          "high": 398.61,
+          "low": 398.23,
+          "close": 398.47,
+          "volume": 1131828.0
+        },
+        {
+          "timestamp": "2022-11-14 12:10:00-05:00",
+          "open": 398.45,
+          "high": 398.69,
+          "low": 398.2,
+          "close": 398.41,
+          "volume": 731367.0
+        },
+        {
+          "timestamp": "2022-11-14 12:15:00-05:00",
+          "open": 398.44,
+          "high": 398.67,
+          "low": 398.095,
+          "close": 398.12,
+          "volume": 417557.0
+        },
+        {
+          "timestamp": "2022-11-14 12:20:00-05:00",
+          "open": 398.13,
+          "high": 398.1399,
+          "low": 397.39,
+          "close": 398.045,
+          "volume": 457002.0
+        },
+        {
+          "timestamp": "2022-11-14 12:25:00-05:00",
+          "open": 398.06,
+          "high": 398.5,
+          "low": 397.9,
+          "close": 398.39,
+          "volume": 371405.0
+        },
+        {
+          "timestamp": "2022-11-14 12:30:00-05:00",
+          "open": 398.4,
+          "high": 398.94,
+          "low": 398.35,
+          "close": 398.79,
+          "volume": 402131.0
+        },
+        {
+          "timestamp": "2022-11-14 12:35:00-05:00",
+          "open": 398.785,
+          "high": 399.23,
+          "low": 398.7,
+          "close": 399.2,
+          "volume": 799852.0
+        },
+        {
+          "timestamp": "2022-11-14 12:40:00-05:00",
+          "open": 399.2,
+          "high": 399.2,
+          "low": 398.8014,
+          "close": 398.9309,
+          "volume": 384059.0
+        },
+        {
+          "timestamp": "2022-11-14 12:45:00-05:00",
+          "open": 398.92,
+          "high": 399.18,
+          "low": 398.8,
+          "close": 399.035,
+          "volume": 337398.0
+        },
+        {
+          "timestamp": "2022-11-14 12:50:00-05:00",
+          "open": 399.02,
+          "high": 399.115,
+          "low": 398.84,
+          "close": 398.89,
+          "volume": 296205.0
+        },
+        {
+          "timestamp": "2022-11-14 12:55:00-05:00",
+          "open": 398.89,
+          "high": 398.97,
+          "low": 398.37,
+          "close": 398.62,
+          "volume": 454815.0
+        }
+      ],
+      "set": "B"
+    },
+    {
+      "scenario_id": "2023-04-20 09:50:00-04:00",
+      "timestamp": "2023-04-20 09:50:00-04:00",
+      "fold_id": 7,
+      "signal": "flat",
+      "confidence": 0.4116,
+      "confidence_level": "low",
+      "top_features": [
+        {
+          "feature": "Realized intraday volatility",
+          "raw_column": "realized_vol_intraday",
+          "shap_value": -0.1767854243516922,
+          "direction": "against"
+        },
+        {
+          "feature": "Average True Range (volatility)",
+          "raw_column": "atr_14",
+          "shap_value": 0.1540849208831787,
+          "direction": "supports"
+        },
+        {
+          "feature": "RSI (momentum strength)",
+          "raw_column": "rsi_14",
+          "shap_value": 0.07936268299818039,
+          "direction": "supports"
+        },
+        {
+          "feature": "On-balance volume (buying/selling pressure)",
+          "raw_column": "obv",
+          "shap_value": 0.07206088304519653,
+          "direction": "supports"
+        },
+        {
+          "feature": "MACD momentum",
+          "raw_column": "MACDh_12_26_9",
+          "shap_value": -0.0660780519247055,
+          "direction": "against"
+        },
+        {
+          "feature": "MACD signal line",
+          "raw_column": "MACDs_12_26_9",
+          "shap_value": 0.061842892318964005,
+          "direction": "supports"
+        },
+        {
+          "feature": "Average trade size",
+          "raw_column": "avg_trade_size",
+          "shap_value": 0.04541544243693352,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger band width",
+          "raw_column": "BBB_20_2.0",
+          "shap_value": 0.044780924916267395,
+          "direction": "supports"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2023-04-19 14:00:00-04:00",
+          "open": 414.54,
+          "high": 415.08,
+          "low": 414.24,
+          "close": 414.255,
+          "volume": 1303741.0
+        },
+        {
+          "timestamp": "2023-04-19 14:05:00-04:00",
+          "open": 414.26,
+          "high": 414.51,
+          "low": 414.245,
+          "close": 414.4,
+          "volume": 835547.0
+        },
+        {
+          "timestamp": "2023-04-19 14:10:00-04:00",
+          "open": 414.39,
+          "high": 414.46,
+          "low": 414.295,
+          "close": 414.365,
+          "volume": 352085.0
+        },
+        {
+          "timestamp": "2023-04-19 14:15:00-04:00",
+          "open": 414.37,
+          "high": 414.46,
+          "low": 414.25,
+          "close": 414.29,
+          "volume": 351758.0
+        },
+        {
+          "timestamp": "2023-04-19 14:20:00-04:00",
+          "open": 414.2982,
+          "high": 414.53,
+          "low": 414.27,
+          "close": 414.5299,
+          "volume": 262547.0
+        },
+        {
+          "timestamp": "2023-04-19 14:25:00-04:00",
+          "open": 414.53,
+          "high": 414.59,
+          "low": 414.46,
+          "close": 414.55,
+          "volume": 325194.0
+        },
+        {
+          "timestamp": "2023-04-19 14:30:00-04:00",
+          "open": 414.56,
+          "high": 414.64,
+          "low": 414.18,
+          "close": 414.29,
+          "volume": 545793.0
+        },
+        {
+          "timestamp": "2023-04-19 14:35:00-04:00",
+          "open": 414.29,
+          "high": 414.42,
+          "low": 414.22,
+          "close": 414.405,
+          "volume": 350925.0
+        },
+        {
+          "timestamp": "2023-04-19 14:40:00-04:00",
+          "open": 414.41,
+          "high": 414.55,
+          "low": 414.29,
+          "close": 414.31,
+          "volume": 460534.0
+        },
+        {
+          "timestamp": "2023-04-19 14:45:00-04:00",
+          "open": 414.32,
+          "high": 414.5,
+          "low": 414.18,
+          "close": 414.48,
+          "volume": 394586.0
+        },
+        {
+          "timestamp": "2023-04-19 14:50:00-04:00",
+          "open": 414.4801,
+          "high": 414.4801,
+          "low": 414.2801,
+          "close": 414.3999,
+          "volume": 365862.0
+        },
+        {
+          "timestamp": "2023-04-19 14:55:00-04:00",
+          "open": 414.39,
+          "high": 414.57,
+          "low": 414.32,
+          "close": 414.53,
+          "volume": 300722.0
+        },
+        {
+          "timestamp": "2023-04-19 15:00:00-04:00",
+          "open": 414.53,
+          "high": 414.57,
+          "low": 414.27,
+          "close": 414.44,
+          "volume": 437170.0
+        },
+        {
+          "timestamp": "2023-04-19 15:05:00-04:00",
+          "open": 414.43,
+          "high": 414.54,
+          "low": 414.29,
+          "close": 414.51,
+          "volume": 875932.0
+        },
+        {
+          "timestamp": "2023-04-19 15:10:00-04:00",
+          "open": 414.52,
+          "high": 414.71,
+          "low": 414.445,
+          "close": 414.66,
+          "volume": 534081.0
+        },
+        {
+          "timestamp": "2023-04-19 15:15:00-04:00",
+          "open": 414.67,
+          "high": 414.775,
+          "low": 414.475,
+          "close": 414.48,
+          "volume": 954280.0
+        },
+        {
+          "timestamp": "2023-04-19 15:20:00-04:00",
+          "open": 414.47,
+          "high": 414.63,
+          "low": 414.4414,
+          "close": 414.63,
+          "volume": 462995.0
+        },
+        {
+          "timestamp": "2023-04-19 15:25:00-04:00",
+          "open": 414.625,
+          "high": 414.63,
+          "low": 414.46,
+          "close": 414.505,
+          "volume": 451663.0
+        },
+        {
+          "timestamp": "2023-04-19 15:30:00-04:00",
+          "open": 414.5,
+          "high": 414.635,
+          "low": 414.34,
+          "close": 414.34,
+          "volume": 586979.0
+        },
+        {
+          "timestamp": "2023-04-19 15:35:00-04:00",
+          "open": 414.33,
+          "high": 414.4,
+          "low": 414.19,
+          "close": 414.295,
+          "volume": 622291.0
+        },
+        {
+          "timestamp": "2023-04-19 15:40:00-04:00",
+          "open": 414.295,
+          "high": 414.46,
+          "low": 414.12,
+          "close": 414.14,
+          "volume": 1371848.0
+        },
+        {
+          "timestamp": "2023-04-19 15:45:00-04:00",
+          "open": 414.13,
+          "high": 414.14,
+          "low": 413.65,
+          "close": 413.826,
+          "volume": 1709873.0
+        },
+        {
+          "timestamp": "2023-04-19 15:50:00-04:00",
+          "open": 413.82,
+          "high": 414.06,
+          "low": 413.63,
+          "close": 413.965,
+          "volume": 1434580.0
+        },
+        {
+          "timestamp": "2023-04-19 15:55:00-04:00",
+          "open": 413.96,
+          "high": 414.29,
+          "low": 413.94,
+          "close": 414.21,
+          "volume": 2056235.0
+        },
+        {
+          "timestamp": "2023-04-19 16:00:00-04:00",
+          "open": 414.2,
+          "high": 414.22,
+          "low": 413.8,
+          "close": 413.86,
+          "volume": 1630002.0
+        },
+        {
+          "timestamp": "2023-04-20 09:30:00-04:00",
+          "open": 411.21,
+          "high": 411.75,
+          "low": 411.08,
+          "close": 411.74,
+          "volume": 2420773.0
+        },
+        {
+          "timestamp": "2023-04-20 09:35:00-04:00",
+          "open": 411.74,
+          "high": 411.97,
+          "low": 411.65,
+          "close": 411.8128,
+          "volume": 1038285.0
+        },
+        {
+          "timestamp": "2023-04-20 09:40:00-04:00",
+          "open": 411.8201,
+          "high": 412.06,
+          "low": 411.73,
+          "close": 412.0401,
+          "volume": 782614.0
+        },
+        {
+          "timestamp": "2023-04-20 09:45:00-04:00",
+          "open": 412.05,
+          "high": 412.32,
+          "low": 411.87,
+          "close": 411.98,
+          "volume": 1086240.0
+        },
+        {
+          "timestamp": "2023-04-20 09:50:00-04:00",
+          "open": 411.9931,
+          "high": 412.06,
+          "low": 411.66,
+          "close": 411.845,
+          "volume": 1218929.0
+        }
+      ],
+      "set": "B"
+    },
+    {
+      "scenario_id": "2023-12-01 14:55:00-05:00",
+      "timestamp": "2023-12-01 14:55:00-05:00",
+      "fold_id": 14,
+      "signal": "down",
+      "confidence": 0.6042,
+      "confidence_level": "high",
+      "top_features": [
+        {
+          "feature": "Market-wide volatility (VIX, prior day)",
+          "raw_column": "vix_close_lagged",
+          "shap_value": 0.5358622670173645,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger upper band",
+          "raw_column": "BBU_20_2.0",
+          "shap_value": 0.41493454575538635,
+          "direction": "supports"
+        },
+        {
+          "feature": "On-balance volume (buying/selling pressure)",
+          "raw_column": "obv",
+          "shap_value": -0.4018559753894806,
+          "direction": "against"
+        },
+        {
+          "feature": "Bollinger midline",
+          "raw_column": "BBM_20_2.0",
+          "shap_value": 0.17175467312335968,
+          "direction": "supports"
+        },
+        {
+          "feature": "Trend strength (ADX)",
+          "raw_column": "ADX_14",
+          "shap_value": 0.1555749773979187,
+          "direction": "supports"
+        },
+        {
+          "feature": "Realized intraday volatility",
+          "raw_column": "realized_vol_intraday",
+          "shap_value": -0.148641437292099,
+          "direction": "against"
+        },
+        {
+          "feature": "Time of day (cyclical)",
+          "raw_column": "session_sin",
+          "shap_value": 0.10824915021657944,
+          "direction": "supports"
+        },
+        {
+          "feature": "Distance from 20-day low",
+          "raw_column": "dist_from_20d_low",
+          "shap_value": 0.10733430832624435,
+          "direction": "supports"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2023-12-01 12:30:00-05:00",
+          "open": 458.91,
+          "high": 459.24,
+          "low": 458.765,
+          "close": 458.805,
+          "volume": 1148903.0
+        },
+        {
+          "timestamp": "2023-12-01 12:35:00-05:00",
+          "open": 458.81,
+          "high": 459.1,
+          "low": 458.69,
+          "close": 459.04,
+          "volume": 836684.0
+        },
+        {
+          "timestamp": "2023-12-01 12:40:00-05:00",
+          "open": 459.04,
+          "high": 459.23,
+          "low": 458.91,
+          "close": 459.11,
+          "volume": 1053122.0
+        },
+        {
+          "timestamp": "2023-12-01 12:45:00-05:00",
+          "open": 459.12,
+          "high": 459.5093,
+          "low": 459.08,
+          "close": 459.445,
+          "volume": 1073999.0
+        },
+        {
+          "timestamp": "2023-12-01 12:50:00-05:00",
+          "open": 459.44,
+          "high": 459.5373,
+          "low": 459.32,
+          "close": 459.52,
+          "volume": 1235839.0
+        },
+        {
+          "timestamp": "2023-12-01 12:55:00-05:00",
+          "open": 459.51,
+          "high": 459.65,
+          "low": 459.4,
+          "close": 459.41,
+          "volume": 837402.0
+        },
+        {
+          "timestamp": "2023-12-01 13:00:00-05:00",
+          "open": 459.415,
+          "high": 459.49,
+          "low": 459.24,
+          "close": 459.2601,
+          "volume": 685409.0
+        },
+        {
+          "timestamp": "2023-12-01 13:05:00-05:00",
+          "open": 459.27,
+          "high": 459.28,
+          "low": 458.88,
+          "close": 459.085,
+          "volume": 834997.0
+        },
+        {
+          "timestamp": "2023-12-01 13:10:00-05:00",
+          "open": 459.08,
+          "high": 459.14,
+          "low": 458.625,
+          "close": 458.8,
+          "volume": 1245667.0
+        },
+        {
+          "timestamp": "2023-12-01 13:15:00-05:00",
+          "open": 458.795,
+          "high": 458.95,
+          "low": 458.61,
+          "close": 458.92,
+          "volume": 603505.0
+        },
+        {
+          "timestamp": "2023-12-01 13:20:00-05:00",
+          "open": 458.93,
+          "high": 459.075,
+          "low": 458.665,
+          "close": 459.02,
+          "volume": 1346120.0
+        },
+        {
+          "timestamp": "2023-12-01 13:25:00-05:00",
+          "open": 459.02,
+          "high": 459.08,
+          "low": 458.55,
+          "close": 458.55,
+          "volume": 603176.0
+        },
+        {
+          "timestamp": "2023-12-01 13:30:00-05:00",
+          "open": 458.55,
+          "high": 458.7,
+          "low": 458.42,
+          "close": 458.66,
+          "volume": 1629135.0
+        },
+        {
+          "timestamp": "2023-12-01 13:35:00-05:00",
+          "open": 458.65,
+          "high": 458.76,
+          "low": 458.33,
+          "close": 458.4299,
+          "volume": 674744.0
+        },
+        {
+          "timestamp": "2023-12-01 13:40:00-05:00",
+          "open": 458.42,
+          "high": 458.68,
+          "low": 458.19,
+          "close": 458.65,
+          "volume": 1386600.0
+        },
+        {
+          "timestamp": "2023-12-01 13:45:00-05:00",
+          "open": 458.625,
+          "high": 458.66,
+          "low": 458.405,
+          "close": 458.42,
+          "volume": 412232.0
+        },
+        {
+          "timestamp": "2023-12-01 13:50:00-05:00",
+          "open": 458.4114,
+          "high": 458.61,
+          "low": 458.32,
+          "close": 458.37,
+          "volume": 441850.0
+        },
+        {
+          "timestamp": "2023-12-01 13:55:00-05:00",
+          "open": 458.37,
+          "high": 458.495,
+          "low": 458.2899,
+          "close": 458.31,
+          "volume": 403263.0
+        },
+        {
+          "timestamp": "2023-12-01 14:00:00-05:00",
+          "open": 458.32,
+          "high": 458.61,
+          "low": 458.2218,
+          "close": 458.56,
+          "volume": 670233.0
+        },
+        {
+          "timestamp": "2023-12-01 14:05:00-05:00",
+          "open": 458.55,
+          "high": 458.56,
+          "low": 458.195,
+          "close": 458.2001,
+          "volume": 621392.0
+        },
+        {
+          "timestamp": "2023-12-01 14:10:00-05:00",
+          "open": 458.21,
+          "high": 458.74,
+          "low": 458.2028,
+          "close": 458.67,
+          "volume": 533561.0
+        },
+        {
+          "timestamp": "2023-12-01 14:15:00-05:00",
+          "open": 458.675,
+          "high": 458.78,
+          "low": 458.505,
+          "close": 458.505,
+          "volume": 542097.0
+        },
+        {
+          "timestamp": "2023-12-01 14:20:00-05:00",
+          "open": 458.51,
+          "high": 458.85,
+          "low": 458.42,
+          "close": 458.795,
+          "volume": 771188.0
+        },
+        {
+          "timestamp": "2023-12-01 14:25:00-05:00",
+          "open": 458.8001,
+          "high": 458.8001,
+          "low": 458.52,
+          "close": 458.73,
+          "volume": 431328.0
+        },
+        {
+          "timestamp": "2023-12-01 14:30:00-05:00",
+          "open": 458.73,
+          "high": 458.82,
+          "low": 458.645,
+          "close": 458.75,
+          "volume": 698788.0
+        },
+        {
+          "timestamp": "2023-12-01 14:35:00-05:00",
+          "open": 458.7433,
+          "high": 458.8499,
+          "low": 458.6,
+          "close": 458.825,
+          "volume": 431859.0
+        },
+        {
+          "timestamp": "2023-12-01 14:40:00-05:00",
+          "open": 458.82,
+          "high": 458.89,
+          "low": 458.4933,
+          "close": 458.7,
+          "volume": 721175.0
+        },
+        {
+          "timestamp": "2023-12-01 14:45:00-05:00",
+          "open": 458.69,
+          "high": 458.83,
+          "low": 458.605,
+          "close": 458.76,
+          "volume": 336459.0
+        },
+        {
+          "timestamp": "2023-12-01 14:50:00-05:00",
+          "open": 458.76,
+          "high": 458.8781,
+          "low": 458.72,
+          "close": 458.83,
+          "volume": 384220.0
+        },
+        {
+          "timestamp": "2023-12-01 14:55:00-05:00",
+          "open": 458.82,
+          "high": 459.09,
+          "low": 458.8,
+          "close": 459.08,
+          "volume": 558903.0
+        }
+      ],
+      "set": "B"
+    },
+    {
+      "scenario_id": "2024-04-26 11:30:00-04:00",
+      "timestamp": "2024-04-26 11:30:00-04:00",
+      "fold_id": 19,
+      "signal": "flat",
+      "confidence": 0.4042,
+      "confidence_level": "low",
+      "top_features": [
+        {
+          "feature": "Distance from 20-day high",
+          "raw_column": "dist_from_20d_high",
+          "shap_value": -0.15162020921707153,
+          "direction": "against"
+        },
+        {
+          "feature": "Average True Range (volatility)",
+          "raw_column": "atr_14",
+          "shap_value": -0.12680400907993317,
+          "direction": "against"
+        },
+        {
+          "feature": "Time of day (cyclical)",
+          "raw_column": "session_sin",
+          "shap_value": 0.10625439882278442,
+          "direction": "supports"
+        },
+        {
+          "feature": "On-balance volume (buying/selling pressure)",
+          "raw_column": "obv",
+          "shap_value": -0.08190387487411499,
+          "direction": "against"
+        },
+        {
+          "feature": "Realized intraday volatility",
+          "raw_column": "realized_vol_intraday",
+          "shap_value": -0.06456342339515686,
+          "direction": "against"
+        },
+        {
+          "feature": "Bollinger lower band",
+          "raw_column": "BBL_20_2.0",
+          "shap_value": 0.03923455998301506,
+          "direction": "supports"
+        },
+        {
+          "feature": "MACD momentum",
+          "raw_column": "MACDh_12_26_9",
+          "shap_value": -0.03593682497739792,
+          "direction": "against"
+        },
+        {
+          "feature": "Bollinger band width",
+          "raw_column": "BBB_20_2.0",
+          "shap_value": -0.03509318456053734,
+          "direction": "against"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2024-04-25 15:40:00-04:00",
+          "open": 503.45,
+          "high": 503.45,
+          "low": 502.69,
+          "close": 502.99,
+          "volume": 799453.0
+        },
+        {
+          "timestamp": "2024-04-25 15:45:00-04:00",
+          "open": 502.97,
+          "high": 503.12,
+          "low": 502.69,
+          "close": 502.785,
+          "volume": 814329.0
+        },
+        {
+          "timestamp": "2024-04-25 15:50:00-04:00",
+          "open": 502.77,
+          "high": 503.195,
+          "low": 502.71,
+          "close": 503.15,
+          "volume": 1515120.0
+        },
+        {
+          "timestamp": "2024-04-25 15:55:00-04:00",
+          "open": 503.13,
+          "high": 503.57,
+          "low": 502.98,
+          "close": 503.44,
+          "volume": 2600887.0
+        },
+        {
+          "timestamp": "2024-04-25 16:00:00-04:00",
+          "open": 503.45,
+          "high": 507.57,
+          "low": 503.12,
+          "close": 507.49,
+          "volume": 2212463.0
+        },
+        {
+          "timestamp": "2024-04-26 09:30:00-04:00",
+          "open": 506.35,
+          "high": 506.74,
+          "low": 505.7,
+          "close": 506.73,
+          "volume": 2093343.0
+        },
+        {
+          "timestamp": "2024-04-26 09:35:00-04:00",
+          "open": 506.74,
+          "high": 507.47,
+          "low": 506.47,
+          "close": 507.29,
+          "volume": 1250605.0
+        },
+        {
+          "timestamp": "2024-04-26 09:40:00-04:00",
+          "open": 507.28,
+          "high": 507.34,
+          "low": 506.65,
+          "close": 506.9,
+          "volume": 863389.0
+        },
+        {
+          "timestamp": "2024-04-26 09:45:00-04:00",
+          "open": 506.9,
+          "high": 507.38,
+          "low": 506.9,
+          "close": 507.38,
+          "volume": 806215.0
+        },
+        {
+          "timestamp": "2024-04-26 09:50:00-04:00",
+          "open": 507.38,
+          "high": 508.1,
+          "low": 507.2406,
+          "close": 507.99,
+          "volume": 835029.0
+        },
+        {
+          "timestamp": "2024-04-26 09:55:00-04:00",
+          "open": 507.98,
+          "high": 508.24,
+          "low": 507.75,
+          "close": 507.84,
+          "volume": 684834.0
+        },
+        {
+          "timestamp": "2024-04-26 10:00:00-04:00",
+          "open": 507.84,
+          "high": 508.6599,
+          "low": 507.65,
+          "close": 508.585,
+          "volume": 890825.0
+        },
+        {
+          "timestamp": "2024-04-26 10:05:00-04:00",
+          "open": 508.59,
+          "high": 508.72,
+          "low": 507.73,
+          "close": 508.58,
+          "volume": 735131.0
+        },
+        {
+          "timestamp": "2024-04-26 10:10:00-04:00",
+          "open": 508.58,
+          "high": 509.01,
+          "low": 508.56,
+          "close": 508.86,
+          "volume": 694741.0
+        },
+        {
+          "timestamp": "2024-04-26 10:15:00-04:00",
+          "open": 508.85,
+          "high": 509.0,
+          "low": 508.54,
+          "close": 508.76,
+          "volume": 639177.0
+        },
+        {
+          "timestamp": "2024-04-26 10:20:00-04:00",
+          "open": 508.76,
+          "high": 508.925,
+          "low": 508.38,
+          "close": 508.88,
+          "volume": 605264.0
+        },
+        {
+          "timestamp": "2024-04-26 10:25:00-04:00",
+          "open": 508.87,
+          "high": 508.875,
+          "low": 508.045,
+          "close": 508.08,
+          "volume": 755211.0
+        },
+        {
+          "timestamp": "2024-04-26 10:30:00-04:00",
+          "open": 508.08,
+          "high": 508.6186,
+          "low": 507.73,
+          "close": 508.6186,
+          "volume": 792943.0
+        },
+        {
+          "timestamp": "2024-04-26 10:35:00-04:00",
+          "open": 508.6,
+          "high": 508.8,
+          "low": 508.32,
+          "close": 508.49,
+          "volume": 439611.0
+        },
+        {
+          "timestamp": "2024-04-26 10:40:00-04:00",
+          "open": 508.49,
+          "high": 508.65,
+          "low": 508.22,
+          "close": 508.31,
+          "volume": 531160.0
+        },
+        {
+          "timestamp": "2024-04-26 10:45:00-04:00",
+          "open": 508.31,
+          "high": 508.72,
+          "low": 508.165,
+          "close": 508.63,
+          "volume": 571794.0
+        },
+        {
+          "timestamp": "2024-04-26 10:50:00-04:00",
+          "open": 508.64,
+          "high": 508.9,
+          "low": 508.15,
+          "close": 508.9,
+          "volume": 614482.0
+        },
+        {
+          "timestamp": "2024-04-26 10:55:00-04:00",
+          "open": 508.87,
+          "high": 508.9,
+          "low": 508.635,
+          "close": 508.78,
+          "volume": 405496.0
+        },
+        {
+          "timestamp": "2024-04-26 11:00:00-04:00",
+          "open": 508.8,
+          "high": 509.55,
+          "low": 508.78,
+          "close": 509.1,
+          "volume": 751139.0
+        },
+        {
+          "timestamp": "2024-04-26 11:05:00-04:00",
+          "open": 509.1,
+          "high": 509.2159,
+          "low": 508.64,
+          "close": 508.74,
+          "volume": 402951.0
+        },
+        {
+          "timestamp": "2024-04-26 11:10:00-04:00",
+          "open": 508.73,
+          "high": 508.79,
+          "low": 507.72,
+          "close": 508.08,
+          "volume": 964897.0
+        },
+        {
+          "timestamp": "2024-04-26 11:15:00-04:00",
+          "open": 508.08,
+          "high": 508.42,
+          "low": 507.92,
+          "close": 508.31,
+          "volume": 503911.0
+        },
+        {
+          "timestamp": "2024-04-26 11:20:00-04:00",
+          "open": 508.33,
+          "high": 508.34,
+          "low": 507.82,
+          "close": 507.96,
+          "volume": 467138.0
+        },
+        {
+          "timestamp": "2024-04-26 11:25:00-04:00",
+          "open": 507.95,
+          "high": 508.36,
+          "low": 507.93,
+          "close": 508.22,
+          "volume": 284260.0
+        },
+        {
+          "timestamp": "2024-04-26 11:30:00-04:00",
+          "open": 508.21,
+          "high": 508.3688,
+          "low": 508.0,
+          "close": 508.115,
+          "volume": 465971.0
+        }
+      ],
+      "set": "B"
+    },
+    {
+      "scenario_id": "2024-09-26 09:40:00-04:00",
+      "timestamp": "2024-09-26 09:40:00-04:00",
+      "fold_id": 24,
+      "signal": "down",
+      "confidence": 0.7008,
+      "confidence_level": "high",
+      "top_features": [
+        {
+          "feature": "Bollinger midline",
+          "raw_column": "BBM_20_2.0",
+          "shap_value": 0.5264926552772522,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger upper band",
+          "raw_column": "BBU_20_2.0",
+          "shap_value": 0.3074590563774109,
+          "direction": "supports"
+        },
+        {
+          "feature": "On-balance volume (buying/selling pressure)",
+          "raw_column": "obv",
+          "shap_value": 0.25643712282180786,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger lower band",
+          "raw_column": "BBL_20_2.0",
+          "shap_value": 0.22882115840911865,
+          "direction": "supports"
+        },
+        {
+          "feature": "Realized intraday volatility",
+          "raw_column": "realized_vol_intraday",
+          "shap_value": 0.11053524911403656,
+          "direction": "supports"
+        },
+        {
+          "feature": "MACD momentum",
+          "raw_column": "MACDh_12_26_9",
+          "shap_value": 0.07781767100095749,
+          "direction": "supports"
+        },
+        {
+          "feature": "Time of day (session progress)",
+          "raw_column": "session_progress",
+          "shap_value": 0.060542382299900055,
+          "direction": "supports"
+        },
+        {
+          "feature": "MACD signal line",
+          "raw_column": "MACDs_12_26_9",
+          "shap_value": 0.05674092844128609,
+          "direction": "supports"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2024-09-25 13:50:00-04:00",
+          "open": 569.2795,
+          "high": 569.98,
+          "low": 569.23,
+          "close": 569.9699,
+          "volume": 355291.0
+        },
+        {
+          "timestamp": "2024-09-25 13:55:00-04:00",
+          "open": 569.96,
+          "high": 570.32,
+          "low": 569.9,
+          "close": 570.2719,
+          "volume": 551588.0
+        },
+        {
+          "timestamp": "2024-09-25 14:00:00-04:00",
+          "open": 570.25,
+          "high": 570.38,
+          "low": 569.93,
+          "close": 570.04,
+          "volume": 390195.0
+        },
+        {
+          "timestamp": "2024-09-25 14:05:00-04:00",
+          "open": 570.03,
+          "high": 570.16,
+          "low": 569.61,
+          "close": 569.79,
+          "volume": 247096.0
+        },
+        {
+          "timestamp": "2024-09-25 14:10:00-04:00",
+          "open": 569.79,
+          "high": 569.84,
+          "low": 569.3656,
+          "close": 569.435,
+          "volume": 239740.0
+        },
+        {
+          "timestamp": "2024-09-25 14:15:00-04:00",
+          "open": 569.4301,
+          "high": 569.73,
+          "low": 569.03,
+          "close": 569.645,
+          "volume": 307102.0
+        },
+        {
+          "timestamp": "2024-09-25 14:20:00-04:00",
+          "open": 569.66,
+          "high": 569.79,
+          "low": 569.57,
+          "close": 569.74,
+          "volume": 170065.0
+        },
+        {
+          "timestamp": "2024-09-25 14:25:00-04:00",
+          "open": 569.7325,
+          "high": 570.2,
+          "low": 569.73,
+          "close": 570.2,
+          "volume": 271156.0
+        },
+        {
+          "timestamp": "2024-09-25 14:30:00-04:00",
+          "open": 570.17,
+          "high": 570.17,
+          "low": 569.85,
+          "close": 570.06,
+          "volume": 204523.0
+        },
+        {
+          "timestamp": "2024-09-25 14:35:00-04:00",
+          "open": 570.05,
+          "high": 570.28,
+          "low": 570.01,
+          "close": 570.06,
+          "volume": 199112.0
+        },
+        {
+          "timestamp": "2024-09-25 14:40:00-04:00",
+          "open": 570.05,
+          "high": 570.14,
+          "low": 569.97,
+          "close": 570.07,
+          "volume": 111059.0
+        },
+        {
+          "timestamp": "2024-09-25 14:45:00-04:00",
+          "open": 570.081,
+          "high": 570.21,
+          "low": 570.02,
+          "close": 570.149,
+          "volume": 221050.0
+        },
+        {
+          "timestamp": "2024-09-25 14:50:00-04:00",
+          "open": 570.15,
+          "high": 570.24,
+          "low": 569.98,
+          "close": 570.1801,
+          "volume": 407274.0
+        },
+        {
+          "timestamp": "2024-09-25 14:55:00-04:00",
+          "open": 570.17,
+          "high": 570.2,
+          "low": 569.77,
+          "close": 570.025,
+          "volume": 318132.0
+        },
+        {
+          "timestamp": "2024-09-25 15:00:00-04:00",
+          "open": 570.02,
+          "high": 570.26,
+          "low": 569.91,
+          "close": 570.2,
+          "volume": 221562.0
+        },
+        {
+          "timestamp": "2024-09-25 15:05:00-04:00",
+          "open": 570.215,
+          "high": 570.26,
+          "low": 569.98,
+          "close": 569.995,
+          "volume": 211444.0
+        },
+        {
+          "timestamp": "2024-09-25 15:10:00-04:00",
+          "open": 570.0,
+          "high": 570.13,
+          "low": 569.84,
+          "close": 569.88,
+          "volume": 484286.0
+        },
+        {
+          "timestamp": "2024-09-25 15:15:00-04:00",
+          "open": 569.89,
+          "high": 569.97,
+          "low": 569.74,
+          "close": 569.79,
+          "volume": 344849.0
+        },
+        {
+          "timestamp": "2024-09-25 15:20:00-04:00",
+          "open": 569.8,
+          "high": 569.8949,
+          "low": 569.7,
+          "close": 569.8,
+          "volume": 188602.0
+        },
+        {
+          "timestamp": "2024-09-25 15:25:00-04:00",
+          "open": 569.805,
+          "high": 569.89,
+          "low": 569.78,
+          "close": 569.865,
+          "volume": 129917.0
+        },
+        {
+          "timestamp": "2024-09-25 15:30:00-04:00",
+          "open": 569.835,
+          "high": 569.86,
+          "low": 569.5523,
+          "close": 569.7,
+          "volume": 639091.0
+        },
+        {
+          "timestamp": "2024-09-25 15:35:00-04:00",
+          "open": 569.705,
+          "high": 569.78,
+          "low": 569.34,
+          "close": 569.46,
+          "volume": 514435.0
+        },
+        {
+          "timestamp": "2024-09-25 15:40:00-04:00",
+          "open": 569.47,
+          "high": 569.5392,
+          "low": 569.33,
+          "close": 569.52,
+          "volume": 844712.0
+        },
+        {
+          "timestamp": "2024-09-25 15:45:00-04:00",
+          "open": 569.52,
+          "high": 569.78,
+          "low": 569.47,
+          "close": 569.6701,
+          "volume": 759403.0
+        },
+        {
+          "timestamp": "2024-09-25 15:50:00-04:00",
+          "open": 569.69,
+          "high": 569.93,
+          "low": 569.54,
+          "close": 569.82,
+          "volume": 1244520.0
+        },
+        {
+          "timestamp": "2024-09-25 15:55:00-04:00",
+          "open": 569.8,
+          "high": 570.14,
+          "low": 569.63,
+          "close": 570.0,
+          "volume": 1771857.0
+        },
+        {
+          "timestamp": "2024-09-25 16:00:00-04:00",
+          "open": 570.0,
+          "high": 570.37,
+          "low": 569.84,
+          "close": 570.35,
+          "volume": 2587414.0
+        },
+        {
+          "timestamp": "2024-09-26 09:30:00-04:00",
+          "open": 574.4,
+          "high": 574.71,
+          "low": 573.52,
+          "close": 573.57,
+          "volume": 1685020.0
+        },
+        {
+          "timestamp": "2024-09-26 09:35:00-04:00",
+          "open": 573.58,
+          "high": 574.12,
+          "low": 573.35,
+          "close": 573.5906,
+          "volume": 1115773.0
+        },
+        {
+          "timestamp": "2024-09-26 09:40:00-04:00",
+          "open": 573.59,
+          "high": 573.6288,
+          "low": 573.3113,
+          "close": 573.62,
+          "volume": 648137.0
+        }
+      ],
+      "set": "B"
+    },
+    {
+      "scenario_id": "2025-05-21 14:40:00-04:00",
+      "timestamp": "2025-05-21 14:40:00-04:00",
+      "fold_id": 32,
+      "signal": "up",
+      "confidence": 0.3529,
+      "confidence_level": "low",
+      "top_features": [
+        {
+          "feature": "Average True Range (volatility)",
+          "raw_column": "atr_14",
+          "shap_value": 0.11526735126972198,
+          "direction": "supports"
+        },
+        {
+          "feature": "Realized intraday volatility",
+          "raw_column": "realized_vol_intraday",
+          "shap_value": 0.11517150700092316,
+          "direction": "supports"
+        },
+        {
+          "feature": "Distance from 20-day low",
+          "raw_column": "dist_from_20d_low",
+          "shap_value": 0.06545854359865189,
+          "direction": "supports"
+        },
+        {
+          "feature": "Market-wide volatility (VIX, prior day)",
+          "raw_column": "vix_close_lagged",
+          "shap_value": 0.06371328234672546,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger upper band",
+          "raw_column": "BBU_20_2.0",
+          "shap_value": -0.05878470093011856,
+          "direction": "against"
+        },
+        {
+          "feature": "On-balance volume (buying/selling pressure)",
+          "raw_column": "obv",
+          "shap_value": -0.05238112807273865,
+          "direction": "against"
+        },
+        {
+          "feature": "Distance from 20-day high",
+          "raw_column": "dist_from_20d_high",
+          "shap_value": 0.048033833503723145,
+          "direction": "supports"
+        },
+        {
+          "feature": "Average trade size",
+          "raw_column": "avg_trade_size",
+          "shap_value": -0.029046038165688515,
+          "direction": "against"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2025-05-21 12:15:00-04:00",
+          "open": 591.95,
+          "high": 592.04,
+          "low": 591.71,
+          "close": 591.775,
+          "volume": 391067.0
+        },
+        {
+          "timestamp": "2025-05-21 12:20:00-04:00",
+          "open": 591.78,
+          "high": 591.82,
+          "low": 591.42,
+          "close": 591.625,
+          "volume": 593447.0
+        },
+        {
+          "timestamp": "2025-05-21 12:25:00-04:00",
+          "open": 591.62,
+          "high": 591.84,
+          "low": 591.54,
+          "close": 591.7897,
+          "volume": 537425.0
+        },
+        {
+          "timestamp": "2025-05-21 12:30:00-04:00",
+          "open": 591.8,
+          "high": 592.13,
+          "low": 591.68,
+          "close": 592.055,
+          "volume": 437783.0
+        },
+        {
+          "timestamp": "2025-05-21 12:35:00-04:00",
+          "open": 592.04,
+          "high": 592.25,
+          "low": 591.87,
+          "close": 591.92,
+          "volume": 340052.0
+        },
+        {
+          "timestamp": "2025-05-21 12:40:00-04:00",
+          "open": 591.925,
+          "high": 592.15,
+          "low": 591.83,
+          "close": 592.045,
+          "volume": 275583.0
+        },
+        {
+          "timestamp": "2025-05-21 12:45:00-04:00",
+          "open": 592.05,
+          "high": 592.57,
+          "low": 591.95,
+          "close": 592.505,
+          "volume": 545164.0
+        },
+        {
+          "timestamp": "2025-05-21 12:50:00-04:00",
+          "open": 592.51,
+          "high": 592.58,
+          "low": 592.2207,
+          "close": 592.345,
+          "volume": 510269.0
+        },
+        {
+          "timestamp": "2025-05-21 12:55:00-04:00",
+          "open": 592.335,
+          "high": 592.375,
+          "low": 591.56,
+          "close": 591.61,
+          "volume": 821323.0
+        },
+        {
+          "timestamp": "2025-05-21 13:00:00-04:00",
+          "open": 591.62,
+          "high": 591.79,
+          "low": 590.94,
+          "close": 591.4,
+          "volume": 834976.0
+        },
+        {
+          "timestamp": "2025-05-21 13:05:00-04:00",
+          "open": 591.39,
+          "high": 591.675,
+          "low": 590.5012,
+          "close": 590.62,
+          "volume": 679522.0
+        },
+        {
+          "timestamp": "2025-05-21 13:10:00-04:00",
+          "open": 590.62,
+          "high": 590.62,
+          "low": 589.9,
+          "close": 590.135,
+          "volume": 1022929.0
+        },
+        {
+          "timestamp": "2025-05-21 13:15:00-04:00",
+          "open": 590.13,
+          "high": 590.19,
+          "low": 587.52,
+          "close": 588.26,
+          "volume": 2247547.0
+        },
+        {
+          "timestamp": "2025-05-21 13:20:00-04:00",
+          "open": 588.25,
+          "high": 588.28,
+          "low": 585.8,
+          "close": 586.03,
+          "volume": 2886526.0
+        },
+        {
+          "timestamp": "2025-05-21 13:25:00-04:00",
+          "open": 586.03,
+          "high": 586.23,
+          "low": 584.55,
+          "close": 584.69,
+          "volume": 2804747.0
+        },
+        {
+          "timestamp": "2025-05-21 13:30:00-04:00",
+          "open": 584.7,
+          "high": 586.6,
+          "low": 583.79,
+          "close": 585.98,
+          "volume": 3808874.0
+        },
+        {
+          "timestamp": "2025-05-21 13:35:00-04:00",
+          "open": 585.97,
+          "high": 587.76,
+          "low": 585.44,
+          "close": 587.72,
+          "volume": 2301909.0
+        },
+        {
+          "timestamp": "2025-05-21 13:40:00-04:00",
+          "open": 587.72,
+          "high": 587.72,
+          "low": 586.29,
+          "close": 586.37,
+          "volume": 1554449.0
+        },
+        {
+          "timestamp": "2025-05-21 13:45:00-04:00",
+          "open": 586.33,
+          "high": 587.18,
+          "low": 585.99,
+          "close": 586.592,
+          "volume": 1219636.0
+        },
+        {
+          "timestamp": "2025-05-21 13:50:00-04:00",
+          "open": 586.58,
+          "high": 587.04,
+          "low": 585.61,
+          "close": 586.1407,
+          "volume": 1066970.0
+        },
+        {
+          "timestamp": "2025-05-21 13:55:00-04:00",
+          "open": 586.14,
+          "high": 586.23,
+          "low": 585.54,
+          "close": 586.1665,
+          "volume": 795884.0
+        },
+        {
+          "timestamp": "2025-05-21 14:00:00-04:00",
+          "open": 586.16,
+          "high": 586.39,
+          "low": 584.95,
+          "close": 585.06,
+          "volume": 838239.0
+        },
+        {
+          "timestamp": "2025-05-21 14:05:00-04:00",
+          "open": 585.0786,
+          "high": 586.27,
+          "low": 584.92,
+          "close": 586.18,
+          "volume": 1091633.0
+        },
+        {
+          "timestamp": "2025-05-21 14:10:00-04:00",
+          "open": 586.17,
+          "high": 586.35,
+          "low": 584.79,
+          "close": 585.33,
+          "volume": 680272.0
+        },
+        {
+          "timestamp": "2025-05-21 14:15:00-04:00",
+          "open": 585.3,
+          "high": 585.81,
+          "low": 585.03,
+          "close": 585.1,
+          "volume": 643752.0
+        },
+        {
+          "timestamp": "2025-05-21 14:20:00-04:00",
+          "open": 585.1,
+          "high": 585.14,
+          "low": 584.15,
+          "close": 584.69,
+          "volume": 920425.0
+        },
+        {
+          "timestamp": "2025-05-21 14:25:00-04:00",
+          "open": 584.68,
+          "high": 585.65,
+          "low": 584.6703,
+          "close": 585.26,
+          "volume": 707081.0
+        },
+        {
+          "timestamp": "2025-05-21 14:30:00-04:00",
+          "open": 585.28,
+          "high": 585.968,
+          "low": 585.07,
+          "close": 585.92,
+          "volume": 751227.0
+        },
+        {
+          "timestamp": "2025-05-21 14:35:00-04:00",
+          "open": 585.93,
+          "high": 586.28,
+          "low": 585.28,
+          "close": 585.49,
+          "volume": 854235.0
+        },
+        {
+          "timestamp": "2025-05-21 14:40:00-04:00",
+          "open": 585.54,
+          "high": 586.04,
+          "low": 585.43,
+          "close": 585.84,
+          "volume": 499690.0
+        }
+      ],
+      "set": "B"
+    },
+    {
+      "scenario_id": "2025-12-12 11:50:00-05:00",
+      "timestamp": "2025-12-12 11:50:00-05:00",
+      "fold_id": 39,
+      "signal": "down",
+      "confidence": 0.4241,
+      "confidence_level": "low",
+      "top_features": [
+        {
+          "feature": "Bollinger upper band",
+          "raw_column": "BBU_20_2.0",
+          "shap_value": 0.2222941815853119,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger band width",
+          "raw_column": "BBB_20_2.0",
+          "shap_value": 0.1705337017774582,
+          "direction": "supports"
+        },
+        {
+          "feature": "Realized intraday volatility",
+          "raw_column": "realized_vol_intraday",
+          "shap_value": 0.11379605531692505,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger lower band",
+          "raw_column": "BBL_20_2.0",
+          "shap_value": -0.10296779125928879,
+          "direction": "against"
+        },
+        {
+          "feature": "Modeled volatility (GARCH)",
+          "raw_column": "garch_vol",
+          "shap_value": 0.09715268760919571,
+          "direction": "supports"
+        },
+        {
+          "feature": "Market-wide volatility (VIX, prior day)",
+          "raw_column": "vix_close_lagged",
+          "shap_value": 0.06919964402914047,
+          "direction": "supports"
+        },
+        {
+          "feature": "Distance from 20-day high",
+          "raw_column": "dist_from_20d_high",
+          "shap_value": -0.06831557303667068,
+          "direction": "against"
+        },
+        {
+          "feature": "Bollinger midline",
+          "raw_column": "BBM_20_2.0",
+          "shap_value": 0.058240413665771484,
+          "direction": "supports"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2025-12-11 16:00:00-05:00",
+          "open": 689.14,
+          "high": 689.34,
+          "low": 688.95,
+          "close": 689.24,
+          "volume": 3428575.0
+        },
+        {
+          "timestamp": "2025-12-12 09:30:00-05:00",
+          "open": 688.17,
+          "high": 688.685,
+          "low": 687.7,
+          "close": 688.415,
+          "volume": 1906787.0
+        },
+        {
+          "timestamp": "2025-12-12 09:35:00-05:00",
+          "open": 688.41,
+          "high": 688.87,
+          "low": 688.21,
+          "close": 688.772,
+          "volume": 799707.0
+        },
+        {
+          "timestamp": "2025-12-12 09:40:00-05:00",
+          "open": 688.79,
+          "high": 688.88,
+          "low": 687.79,
+          "close": 687.94,
+          "volume": 1236951.0
+        },
+        {
+          "timestamp": "2025-12-12 09:45:00-05:00",
+          "open": 687.94,
+          "high": 688.15,
+          "low": 687.365,
+          "close": 687.3899,
+          "volume": 1184343.0
+        },
+        {
+          "timestamp": "2025-12-12 09:50:00-05:00",
+          "open": 687.38,
+          "high": 688.0198,
+          "low": 687.17,
+          "close": 687.87,
+          "volume": 1033771.0
+        },
+        {
+          "timestamp": "2025-12-12 09:55:00-05:00",
+          "open": 687.86,
+          "high": 687.985,
+          "low": 687.405,
+          "close": 687.49,
+          "volume": 741573.0
+        },
+        {
+          "timestamp": "2025-12-12 10:00:00-05:00",
+          "open": 687.46,
+          "high": 687.54,
+          "low": 686.58,
+          "close": 686.69,
+          "volume": 1476988.0
+        },
+        {
+          "timestamp": "2025-12-12 10:05:00-05:00",
+          "open": 686.7,
+          "high": 686.89,
+          "low": 685.58,
+          "close": 685.9,
+          "volume": 1600622.0
+        },
+        {
+          "timestamp": "2025-12-12 10:10:00-05:00",
+          "open": 685.9,
+          "high": 686.51,
+          "low": 685.79,
+          "close": 685.91,
+          "volume": 2143531.0
+        },
+        {
+          "timestamp": "2025-12-12 10:15:00-05:00",
+          "open": 685.91,
+          "high": 686.13,
+          "low": 685.36,
+          "close": 685.87,
+          "volume": 1373882.0
+        },
+        {
+          "timestamp": "2025-12-12 10:20:00-05:00",
+          "open": 685.86,
+          "high": 686.045,
+          "low": 684.72,
+          "close": 684.82,
+          "volume": 1722916.0
+        },
+        {
+          "timestamp": "2025-12-12 10:25:00-05:00",
+          "open": 684.8,
+          "high": 684.9099,
+          "low": 683.63,
+          "close": 683.75,
+          "volume": 2728798.0
+        },
+        {
+          "timestamp": "2025-12-12 10:30:00-05:00",
+          "open": 683.75,
+          "high": 684.71,
+          "low": 683.31,
+          "close": 684.31,
+          "volume": 2273837.0
+        },
+        {
+          "timestamp": "2025-12-12 10:35:00-05:00",
+          "open": 684.33,
+          "high": 685.15,
+          "low": 683.96,
+          "close": 684.94,
+          "volume": 1344889.0
+        },
+        {
+          "timestamp": "2025-12-12 10:40:00-05:00",
+          "open": 684.93,
+          "high": 685.21,
+          "low": 684.35,
+          "close": 685.2,
+          "volume": 1086431.0
+        },
+        {
+          "timestamp": "2025-12-12 10:45:00-05:00",
+          "open": 685.2,
+          "high": 685.61,
+          "low": 684.915,
+          "close": 685.2,
+          "volume": 1148342.0
+        },
+        {
+          "timestamp": "2025-12-12 10:50:00-05:00",
+          "open": 685.2,
+          "high": 685.42,
+          "low": 683.88,
+          "close": 683.885,
+          "volume": 1413736.0
+        },
+        {
+          "timestamp": "2025-12-12 10:55:00-05:00",
+          "open": 683.87,
+          "high": 683.89,
+          "low": 681.31,
+          "close": 681.72,
+          "volume": 3173865.0
+        },
+        {
+          "timestamp": "2025-12-12 11:00:00-05:00",
+          "open": 681.72,
+          "high": 682.46,
+          "low": 680.62,
+          "close": 680.62,
+          "volume": 2893130.0
+        },
+        {
+          "timestamp": "2025-12-12 11:05:00-05:00",
+          "open": 680.61,
+          "high": 681.78,
+          "low": 680.47,
+          "close": 680.94,
+          "volume": 2137567.0
+        },
+        {
+          "timestamp": "2025-12-12 11:10:00-05:00",
+          "open": 680.96,
+          "high": 681.38,
+          "low": 680.18,
+          "close": 681.03,
+          "volume": 2312513.0
+        },
+        {
+          "timestamp": "2025-12-12 11:15:00-05:00",
+          "open": 681.03,
+          "high": 681.71,
+          "low": 680.51,
+          "close": 680.82,
+          "volume": 1331059.0
+        },
+        {
+          "timestamp": "2025-12-12 11:20:00-05:00",
+          "open": 680.83,
+          "high": 681.22,
+          "low": 679.7,
+          "close": 680.37,
+          "volume": 2490803.0
+        },
+        {
+          "timestamp": "2025-12-12 11:25:00-05:00",
+          "open": 680.37,
+          "high": 681.32,
+          "low": 680.09,
+          "close": 681.27,
+          "volume": 1140323.0
+        },
+        {
+          "timestamp": "2025-12-12 11:30:00-05:00",
+          "open": 681.27,
+          "high": 681.29,
+          "low": 679.93,
+          "close": 680.32,
+          "volume": 850718.0
+        },
+        {
+          "timestamp": "2025-12-12 11:35:00-05:00",
+          "open": 680.315,
+          "high": 680.51,
+          "low": 679.1744,
+          "close": 679.65,
+          "volume": 1554954.0
+        },
+        {
+          "timestamp": "2025-12-12 11:40:00-05:00",
+          "open": 679.66,
+          "high": 680.71,
+          "low": 679.24,
+          "close": 680.7,
+          "volume": 1363276.0
+        },
+        {
+          "timestamp": "2025-12-12 11:45:00-05:00",
+          "open": 680.7,
+          "high": 680.75,
+          "low": 679.88,
+          "close": 680.3301,
+          "volume": 1299496.0
+        },
+        {
+          "timestamp": "2025-12-12 11:50:00-05:00",
+          "open": 680.33,
+          "high": 680.33,
+          "low": 679.76,
+          "close": 680.05,
+          "volume": 658368.0
+        }
+      ],
+      "set": "B"
+    },
+    {
+      "scenario_id": "2025-12-22 11:45:00-05:00",
+      "timestamp": "2025-12-22 11:45:00-05:00",
+      "fold_id": 39,
+      "signal": "flat",
+      "confidence": 0.8806,
+      "confidence_level": "high",
+      "top_features": [
+        {
+          "feature": "Realized intraday volatility",
+          "raw_column": "realized_vol_intraday",
+          "shap_value": 0.17829737067222595,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger midline",
+          "raw_column": "BBM_20_2.0",
+          "shap_value": 0.12994317710399628,
+          "direction": "supports"
+        },
+        {
+          "feature": "Average True Range (volatility)",
+          "raw_column": "atr_14",
+          "shap_value": 0.12665167450904846,
+          "direction": "supports"
+        },
+        {
+          "feature": "On-balance volume (buying/selling pressure)",
+          "raw_column": "obv",
+          "shap_value": 0.09930351376533508,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger lower band",
+          "raw_column": "BBL_20_2.0",
+          "shap_value": 0.07633282989263535,
+          "direction": "supports"
+        },
+        {
+          "feature": "Distance from 20-day high",
+          "raw_column": "dist_from_20d_high",
+          "shap_value": 0.07407438009977341,
+          "direction": "supports"
+        },
+        {
+          "feature": "Market-wide volatility (VIX, prior day)",
+          "raw_column": "vix_close_lagged",
+          "shap_value": 0.06439253687858582,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger upper band",
+          "raw_column": "BBU_20_2.0",
+          "shap_value": 0.047696519643068314,
+          "direction": "supports"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2025-12-19 15:55:00-05:00",
+          "open": 680.48,
+          "high": 680.69,
+          "low": 679.98,
+          "close": 680.59,
+          "volume": 8588135.0
+        },
+        {
+          "timestamp": "2025-12-19 16:00:00-05:00",
+          "open": 680.59,
+          "high": 680.76,
+          "low": 680.37,
+          "close": 680.65,
+          "volume": 4067055.0
+        },
+        {
+          "timestamp": "2025-12-22 09:30:00-05:00",
+          "open": 683.93,
+          "high": 684.53,
+          "low": 683.38,
+          "close": 683.67,
+          "volume": 2443457.0
+        },
+        {
+          "timestamp": "2025-12-22 09:35:00-05:00",
+          "open": 683.67,
+          "high": 683.93,
+          "low": 683.16,
+          "close": 683.29,
+          "volume": 1403188.0
+        },
+        {
+          "timestamp": "2025-12-22 09:40:00-05:00",
+          "open": 683.3,
+          "high": 683.525,
+          "low": 682.94,
+          "close": 683.23,
+          "volume": 1314824.0
+        },
+        {
+          "timestamp": "2025-12-22 09:45:00-05:00",
+          "open": 683.22,
+          "high": 683.7299,
+          "low": 683.08,
+          "close": 683.36,
+          "volume": 1012730.0
+        },
+        {
+          "timestamp": "2025-12-22 09:50:00-05:00",
+          "open": 683.36,
+          "high": 684.06,
+          "low": 683.285,
+          "close": 684.0,
+          "volume": 930990.0
+        },
+        {
+          "timestamp": "2025-12-22 09:55:00-05:00",
+          "open": 684.015,
+          "high": 684.135,
+          "low": 683.8,
+          "close": 683.97,
+          "volume": 895338.0
+        },
+        {
+          "timestamp": "2025-12-22 10:00:00-05:00",
+          "open": 683.975,
+          "high": 684.12,
+          "low": 683.435,
+          "close": 683.47,
+          "volume": 839442.0
+        },
+        {
+          "timestamp": "2025-12-22 10:05:00-05:00",
+          "open": 683.47,
+          "high": 683.7714,
+          "low": 683.245,
+          "close": 683.55,
+          "volume": 581880.0
+        },
+        {
+          "timestamp": "2025-12-22 10:10:00-05:00",
+          "open": 683.58,
+          "high": 683.61,
+          "low": 682.89,
+          "close": 682.97,
+          "volume": 738895.0
+        },
+        {
+          "timestamp": "2025-12-22 10:15:00-05:00",
+          "open": 682.99,
+          "high": 683.6,
+          "low": 682.94,
+          "close": 683.475,
+          "volume": 775253.0
+        },
+        {
+          "timestamp": "2025-12-22 10:20:00-05:00",
+          "open": 683.48,
+          "high": 683.88,
+          "low": 683.37,
+          "close": 683.7799,
+          "volume": 701104.0
+        },
+        {
+          "timestamp": "2025-12-22 10:25:00-05:00",
+          "open": 683.77,
+          "high": 683.93,
+          "low": 683.61,
+          "close": 683.77,
+          "volume": 492821.0
+        },
+        {
+          "timestamp": "2025-12-22 10:30:00-05:00",
+          "open": 683.77,
+          "high": 683.99,
+          "low": 683.4601,
+          "close": 683.49,
+          "volume": 564546.0
+        },
+        {
+          "timestamp": "2025-12-22 10:35:00-05:00",
+          "open": 683.49,
+          "high": 683.49,
+          "low": 682.68,
+          "close": 682.88,
+          "volume": 1063101.0
+        },
+        {
+          "timestamp": "2025-12-22 10:40:00-05:00",
+          "open": 682.89,
+          "high": 683.79,
+          "low": 682.8544,
+          "close": 683.72,
+          "volume": 844898.0
+        },
+        {
+          "timestamp": "2025-12-22 10:45:00-05:00",
+          "open": 683.72,
+          "high": 683.91,
+          "low": 683.67,
+          "close": 683.82,
+          "volume": 710588.0
+        },
+        {
+          "timestamp": "2025-12-22 10:50:00-05:00",
+          "open": 683.82,
+          "high": 683.94,
+          "low": 683.58,
+          "close": 683.82,
+          "volume": 503726.0
+        },
+        {
+          "timestamp": "2025-12-22 10:55:00-05:00",
+          "open": 683.83,
+          "high": 683.98,
+          "low": 683.62,
+          "close": 683.65,
+          "volume": 519320.0
+        },
+        {
+          "timestamp": "2025-12-22 11:00:00-05:00",
+          "open": 683.64,
+          "high": 683.975,
+          "low": 683.64,
+          "close": 683.85,
+          "volume": 374255.0
+        },
+        {
+          "timestamp": "2025-12-22 11:05:00-05:00",
+          "open": 683.855,
+          "high": 684.25,
+          "low": 683.83,
+          "close": 684.19,
+          "volume": 571643.0
+        },
+        {
+          "timestamp": "2025-12-22 11:10:00-05:00",
+          "open": 684.22,
+          "high": 684.67,
+          "low": 684.17,
+          "close": 684.645,
+          "volume": 743775.0
+        },
+        {
+          "timestamp": "2025-12-22 11:15:00-05:00",
+          "open": 684.64,
+          "high": 684.915,
+          "low": 684.57,
+          "close": 684.84,
+          "volume": 783223.0
+        },
+        {
+          "timestamp": "2025-12-22 11:20:00-05:00",
+          "open": 684.85,
+          "high": 684.975,
+          "low": 684.72,
+          "close": 684.75,
+          "volume": 922779.0
+        },
+        {
+          "timestamp": "2025-12-22 11:25:00-05:00",
+          "open": 684.76,
+          "high": 684.92,
+          "low": 684.53,
+          "close": 684.67,
+          "volume": 660223.0
+        },
+        {
+          "timestamp": "2025-12-22 11:30:00-05:00",
+          "open": 684.67,
+          "high": 684.78,
+          "low": 684.44,
+          "close": 684.48,
+          "volume": 563157.0
+        },
+        {
+          "timestamp": "2025-12-22 11:35:00-05:00",
+          "open": 684.49,
+          "high": 684.7399,
+          "low": 684.45,
+          "close": 684.5001,
+          "volume": 526041.0
+        },
+        {
+          "timestamp": "2025-12-22 11:40:00-05:00",
+          "open": 684.49,
+          "high": 684.72,
+          "low": 684.36,
+          "close": 684.37,
+          "volume": 326219.0
+        },
+        {
+          "timestamp": "2025-12-22 11:45:00-05:00",
+          "open": 684.37,
+          "high": 684.65,
+          "low": 684.36,
+          "close": 684.4901,
+          "volume": 450498.0
+        }
+      ],
+      "set": "B"
+    },
+    {
+      "scenario_id": "2026-06-24 14:40:00-04:00",
+      "timestamp": "2026-06-24 14:40:00-04:00",
+      "fold_id": 45,
+      "signal": "down",
+      "confidence": 0.6079,
+      "confidence_level": "high",
+      "top_features": [
+        {
+          "feature": "On-balance volume (buying/selling pressure)",
+          "raw_column": "obv",
+          "shap_value": 0.5609478950500488,
+          "direction": "supports"
+        },
+        {
+          "feature": "Distance from 20-day low",
+          "raw_column": "dist_from_20d_low",
+          "shap_value": 0.17657893896102905,
+          "direction": "supports"
+        },
+        {
+          "feature": "Bollinger lower band",
+          "raw_column": "BBL_20_2.0",
+          "shap_value": 0.16512614488601685,
+          "direction": "supports"
+        },
+        {
+          "feature": "MACD momentum",
+          "raw_column": "MACDh_12_26_9",
+          "shap_value": 0.0941515639424324,
+          "direction": "supports"
+        },
+        {
+          "feature": "Distance from 20-day high",
+          "raw_column": "dist_from_20d_high",
+          "shap_value": 0.09143928438425064,
+          "direction": "supports"
+        },
+        {
+          "feature": "Average True Range (volatility)",
+          "raw_column": "atr_14",
+          "shap_value": 0.08142044395208359,
+          "direction": "supports"
+        },
+        {
+          "feature": "Time of day (session progress)",
+          "raw_column": "session_progress",
+          "shap_value": 0.07625684142112732,
+          "direction": "supports"
+        },
+        {
+          "feature": "Time of day (cyclical)",
+          "raw_column": "session_cos",
+          "shap_value": 0.038959600031375885,
+          "direction": "supports"
+        }
+      ],
+      "price_window": [
+        {
+          "timestamp": "2026-06-24 12:15:00-04:00",
+          "open": 738.47,
+          "high": 738.82,
+          "low": 738.1485,
+          "close": 738.3,
+          "volume": 117013.0
+        },
+        {
+          "timestamp": "2026-06-24 12:20:00-04:00",
+          "open": 738.31,
+          "high": 738.7499,
+          "low": 738.04,
+          "close": 738.63,
+          "volume": 171831.0
+        },
+        {
+          "timestamp": "2026-06-24 12:25:00-04:00",
+          "open": 738.6204,
+          "high": 738.63,
+          "low": 738.0,
+          "close": 738.08,
+          "volume": 184857.0
+        },
+        {
+          "timestamp": "2026-06-24 12:30:00-04:00",
+          "open": 738.09,
+          "high": 738.1,
+          "low": 737.49,
+          "close": 737.66,
+          "volume": 236905.0
+        },
+        {
+          "timestamp": "2026-06-24 12:35:00-04:00",
+          "open": 737.65,
+          "high": 737.93,
+          "low": 736.49,
+          "close": 736.53,
+          "volume": 376366.0
+        },
+        {
+          "timestamp": "2026-06-24 12:40:00-04:00",
+          "open": 736.5312,
+          "high": 736.58,
+          "low": 735.92,
+          "close": 736.32,
+          "volume": 524873.0
+        },
+        {
+          "timestamp": "2026-06-24 12:45:00-04:00",
+          "open": 736.32,
+          "high": 736.63,
+          "low": 735.93,
+          "close": 736.34,
+          "volume": 374223.0
+        },
+        {
+          "timestamp": "2026-06-24 12:50:00-04:00",
+          "open": 736.34,
+          "high": 736.83,
+          "low": 735.8,
+          "close": 735.8001,
+          "volume": 222662.0
+        },
+        {
+          "timestamp": "2026-06-24 12:55:00-04:00",
+          "open": 735.82,
+          "high": 736.0252,
+          "low": 735.39,
+          "close": 735.69,
+          "volume": 327544.0
+        },
+        {
+          "timestamp": "2026-06-24 13:00:00-04:00",
+          "open": 735.7,
+          "high": 736.46,
+          "low": 735.53,
+          "close": 736.42,
+          "volume": 368390.0
+        },
+        {
+          "timestamp": "2026-06-24 13:05:00-04:00",
+          "open": 736.4,
+          "high": 736.43,
+          "low": 734.67,
+          "close": 734.9631,
+          "volume": 427801.0
+        },
+        {
+          "timestamp": "2026-06-24 13:10:00-04:00",
+          "open": 734.96,
+          "high": 735.377,
+          "low": 734.61,
+          "close": 734.79,
+          "volume": 390472.0
+        },
+        {
+          "timestamp": "2026-06-24 13:15:00-04:00",
+          "open": 734.78,
+          "high": 735.15,
+          "low": 733.56,
+          "close": 733.82,
+          "volume": 609741.0
+        },
+        {
+          "timestamp": "2026-06-24 13:20:00-04:00",
+          "open": 733.81,
+          "high": 733.82,
+          "low": 733.04,
+          "close": 733.13,
+          "volume": 468927.0
+        },
+        {
+          "timestamp": "2026-06-24 13:25:00-04:00",
+          "open": 733.13,
+          "high": 733.24,
+          "low": 732.06,
+          "close": 732.16,
+          "volume": 438364.0
+        },
+        {
+          "timestamp": "2026-06-24 13:30:00-04:00",
+          "open": 732.16,
+          "high": 732.69,
+          "low": 731.28,
+          "close": 732.33,
+          "volume": 662185.0
+        },
+        {
+          "timestamp": "2026-06-24 13:35:00-04:00",
+          "open": 732.33,
+          "high": 732.925,
+          "low": 731.6801,
+          "close": 732.53,
+          "volume": 461252.0
+        },
+        {
+          "timestamp": "2026-06-24 13:40:00-04:00",
+          "open": 732.5,
+          "high": 732.8491,
+          "low": 731.81,
+          "close": 731.9543,
+          "volume": 377329.0
+        },
+        {
+          "timestamp": "2026-06-24 13:45:00-04:00",
+          "open": 731.92,
+          "high": 732.65,
+          "low": 731.52,
+          "close": 732.46,
+          "volume": 346595.0
+        },
+        {
+          "timestamp": "2026-06-24 13:50:00-04:00",
+          "open": 732.45,
+          "high": 732.62,
+          "low": 732.085,
+          "close": 732.53,
+          "volume": 218872.0
+        },
+        {
+          "timestamp": "2026-06-24 13:55:00-04:00",
+          "open": 732.55,
+          "high": 733.15,
+          "low": 731.7,
+          "close": 731.87,
+          "volume": 438015.0
+        },
+        {
+          "timestamp": "2026-06-24 14:00:00-04:00",
+          "open": 731.86,
+          "high": 732.95,
+          "low": 731.77,
+          "close": 732.6,
+          "volume": 467069.0
+        },
+        {
+          "timestamp": "2026-06-24 14:05:00-04:00",
+          "open": 732.61,
+          "high": 733.38,
+          "low": 732.55,
+          "close": 733.01,
+          "volume": 348185.0
+        },
+        {
+          "timestamp": "2026-06-24 14:10:00-04:00",
+          "open": 733.01,
+          "high": 733.13,
+          "low": 732.55,
+          "close": 732.88,
+          "volume": 1333762.0
+        },
+        {
+          "timestamp": "2026-06-24 14:15:00-04:00",
+          "open": 732.89,
+          "high": 733.95,
+          "low": 732.87,
+          "close": 733.77,
+          "volume": 552321.0
+        },
+        {
+          "timestamp": "2026-06-24 14:20:00-04:00",
+          "open": 733.77,
+          "high": 734.3299,
+          "low": 733.565,
+          "close": 734.31,
+          "volume": 381545.0
+        },
+        {
+          "timestamp": "2026-06-24 14:25:00-04:00",
+          "open": 734.31,
+          "high": 734.66,
+          "low": 734.14,
+          "close": 734.34,
+          "volume": 464429.0
+        },
+        {
+          "timestamp": "2026-06-24 14:30:00-04:00",
+          "open": 734.352,
+          "high": 734.57,
+          "low": 733.996,
+          "close": 734.25,
+          "volume": 446762.0
+        },
+        {
+          "timestamp": "2026-06-24 14:35:00-04:00",
+          "open": 734.22,
+          "high": 734.31,
+          "low": 733.5,
+          "close": 733.62,
+          "volume": 411753.0
+        },
+        {
+          "timestamp": "2026-06-24 14:40:00-04:00",
+          "open": 733.62,
+          "high": 733.77,
+          "low": 732.875,
+          "close": 733.26,
+          "volume": 556410.0
+        }
+      ],
+      "set": "B"
+    }
+  ]
+}
