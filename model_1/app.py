@@ -1,8 +1,3 @@
-# app.py
-# DSA3900 Research Prototype — Streamlit Web App
-# Explainable Machine Learning for Algorithmic Trading
-# Author: Aime Muganga (670232)
-# Run: streamlit run app.py
 
 import streamlit as st
 import pandas as pd
