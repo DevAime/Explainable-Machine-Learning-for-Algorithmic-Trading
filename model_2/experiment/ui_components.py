@@ -19,9 +19,6 @@ from config import COLORS, FEATURE_DISPLAY_NAMES
 def render_price_chart(price_window: list[dict], title: str = "Price (5-min bars)") -> None:
     df = pd.DataFrame(price_window)
     df["timestamp"] = pd.to_datetime(df["timestamp"])
-    # Categorical labels for the x-axis: shorter for same-day windows, includes
-    # the date only when the window actually crosses a day boundary (so ticks
-    # stay readable either way).
     spans_multiple_days = df["timestamp"].dt.date.nunique() > 1
     label_fmt = "%b %d %H:%M" if spans_multiple_days else "%H:%M"
     df["label"] = df["timestamp"].dt.strftime(label_fmt)
@@ -54,6 +51,9 @@ def render_price_chart(price_window: list[dict], title: str = "Price (5-min bars
         height=380,
     )
     fig.update_xaxes(type="category", nticks=6)
+    fig.update_xaxes(gridcolor=COLORS["border"])
+    fig.update_yaxes(gridcolor=COLORS["border"])
+    st.plotly_chart(fig, width='stretch', config={"displayModeBar": False})
 
 
 def render_signal_panel(signal: str, confidence: float) -> None:
