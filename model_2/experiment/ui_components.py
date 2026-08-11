@@ -128,6 +128,7 @@ def inject_base_styles() -> None:
         <style>
         .stApp {{
             background-color: {COLORS['background']};
+            color: {COLORS['text_primary']};
         }}
         div.block-container {{
             max-width: 980px;
