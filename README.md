@@ -101,6 +101,8 @@ language (e.g. `MACDh_12_26_9` -> "MACD momentum") -- saved once to
 
 <img width="707" height="606" alt="image" src="https://github.com/user-attachments/assets/e2793ce0-4809-4a67-bfa9-3b8e99d5803d" />
 
+<img width="676" height="621" alt="image" src="https://github.com/user-attachments/assets/92300815-0ab0-43df-8ab8-1128c7147598" />
+
 
 **Design:** within-subject, 2 conditions -- `explained` (signal + SHAP
 shown) vs. `unexplained` (signal only). Every participant sees all 20
