@@ -1,6 +1,6 @@
 # SPY 5-Minute Explainable Trading Signal -- Research Project
 
-DSA3900 thesis project. Trains a direction-prediction model on SPY
+DSA4900 thesis project. Trains a direction-prediction model on SPY
 5-minute intraday data, generates SHAP explanations for its predictions,
 and runs a within-subject human experiment testing whether seeing those
 explanations changes how people make trading decisions -- including
@@ -99,6 +99,9 @@ language (e.g. `MACDh_12_26_9` -> "MACD momentum") -- saved once to
 
 ## 6. The experiment (Streamlit app)
 
+<img width="707" height="606" alt="image" src="https://github.com/user-attachments/assets/e2793ce0-4809-4a67-bfa9-3b8e99d5803d" />
+
+
 **Design:** within-subject, 2 conditions -- `explained` (signal + SHAP
 shown) vs. `unexplained` (signal only). Every participant sees all 20
 scenarios: trials 0-9 always `explained`, trials 10-19 always
@@ -144,6 +147,7 @@ categorical (evenly spaced by bar order, gaps just disappear), since nothing
 here needs literal time-proportional spacing.
 
 ## 7. Data collection (Google Sheets)
+
 
 `experiment/logging_utils.py` uses `gspread` + a Google Cloud service
 account. Two tabs in one spreadsheet:
